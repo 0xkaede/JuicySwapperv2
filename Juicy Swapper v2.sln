@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Juicy Swapper v2", "Juicy Swapper v2\Juicy Swapper v2.csproj", "{56A6B446-86C7-4CAA-8A05-1A085287F0EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56A6B446-86C7-4CAA-8A05-1A085287F0EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56A6B446-86C7-4CAA-8A05-1A085287F0EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56A6B446-86C7-4CAA-8A05-1A085287F0EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56A6B446-86C7-4CAA-8A05-1A085287F0EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69B83A3E-1A66-4053-AEA2-95E07E64B64B}
+	EndGlobalSection
+EndGlobal
