@@ -91,6 +91,16 @@ namespace Juicy_Swapper_v2.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BootstrapsIcon {
+            get {
+                object obj = ResourceManager.GetObject("BootstrapsIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
         internal static byte[] BurbankBigCondensed_Bold {
@@ -106,6 +116,16 @@ namespace Juicy_Swapper_v2.Properties {
         internal static System.Drawing.Bitmap CrowbarIcon {
             get {
                 object obj = ResourceManager.GetObject("CrowbarIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DriverIcon {
+            get {
+                object obj = ResourceManager.GetObject("DriverIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -211,6 +231,16 @@ namespace Juicy_Swapper_v2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap HarleyHitterIcon {
+            get {
+                object obj = ResourceManager.GetObject("HarleyHitterIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap legendaryRarity {
             get {
                 object obj = ResourceManager.GetObject("legendaryRarity", resourceCulture);
@@ -221,9 +251,29 @@ namespace Juicy_Swapper_v2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap MerryMintAxeIcon {
+            get {
+                object obj = ResourceManager.GetObject("MerryMintAxeIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap NeonWingsIcon {
             get {
                 object obj = ResourceManager.GetObject("NeonWingsIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RaidersRevengeIcon {
+            get {
+                object obj = ResourceManager.GetObject("RaidersRevengeIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

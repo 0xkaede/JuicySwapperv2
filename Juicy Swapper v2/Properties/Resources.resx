@@ -127,11 +127,17 @@
   <data name="BlazeIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BlazeIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="BootstrapsIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BootstrapsIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="BurbankBigCondensed_Bold" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BurbankBigCondensed-Bold.otf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="CrowbarIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CrowbarIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DriverIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DriverIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DummyIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,11 +169,20 @@
   <data name="goosebumpsPreview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\goosebumpsPreview.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="HarleyHitterIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HarleyHitterIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="legendaryRarity" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\legendaryRarity.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="MerryMintAxeIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MerryMintAxeIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="NeonWingsIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\NeonWingsIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RaidersRevengeIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RaidersRevengeIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="RenegadeIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\RenegadeIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

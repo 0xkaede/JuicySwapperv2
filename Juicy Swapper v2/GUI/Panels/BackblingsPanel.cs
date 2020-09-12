@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Juicy_Swapper_v2.GUI.Forms.Items.Backblings;
+using System;
 using System.Windows.Forms;
 
 namespace Juicy_Swapper_v2.Panels
@@ -22,7 +23,7 @@ namespace Juicy_Swapper_v2.Panels
 
         private void bunifuImageButton1_Click(object sender, EventArgs e)
         {
-
+            new GalacticDisc().ShowDialog();
         }
 
         private void closeButton_Click(object sender, EventArgs e)

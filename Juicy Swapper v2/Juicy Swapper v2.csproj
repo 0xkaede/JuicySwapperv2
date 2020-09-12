@@ -137,6 +137,36 @@
     <Compile Include="GUI\Forms\Items\Miscellaneous\Goosebumps.Designer.cs">
       <DependentUpon>Goosebumps.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\Forms\Items\Pickaxes\HarleyHitter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Pickaxes\HarleyHitter.Designer.cs">
+      <DependentUpon>HarleyHitter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Pickaxes\Driver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Pickaxes\Driver.Designer.cs">
+      <DependentUpon>Driver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Pickaxes\Bootstraps.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Pickaxes\Bootstraps.Designer.cs">
+      <DependentUpon>Bootstraps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Pickaxes\MerryMintAxe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Pickaxes\MerryMintAxe.Designer.cs">
+      <DependentUpon>MerryMintAxe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Pickaxes\RaidersRevenge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Pickaxes\RaidersRevenge.Designer.cs">
+      <DependentUpon>RaidersRevenge.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\Forms\Items\Pickaxes\StellarAxe.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -292,6 +322,21 @@
     <EmbeddedResource Include="GUI\Forms\Items\Miscellaneous\Gooba.resx">
       <DependentUpon>Gooba.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Items\Pickaxes\HarleyHitter.resx">
+      <DependentUpon>HarleyHitter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Items\Pickaxes\Driver.resx">
+      <DependentUpon>Driver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Items\Pickaxes\Bootstraps.resx">
+      <DependentUpon>Bootstraps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Items\Pickaxes\MerryMintAxe.resx">
+      <DependentUpon>MerryMintAxe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Items\Pickaxes\RaidersRevenge.resx">
+      <DependentUpon>RaidersRevenge.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\Forms\Items\Pickaxes\StellarAxe.resx">
       <DependentUpon>StellarAxe.cs</DependentUpon>
     </EmbeddedResource>
@@ -359,6 +404,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="app.config" />
     <None Include="Configuration\app.config" />
     <None Include="Configuration\packages.config" />
     <None Include="Properties\Settings.settings">
@@ -449,6 +495,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\NeonWingsIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RaidersRevengeIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MerryMintAxeIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BootstrapsIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DriverIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HarleyHitterIcon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

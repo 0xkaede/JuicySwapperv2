@@ -40,7 +40,7 @@ namespace Juicy_Swapper_v2.Forms
 
         private void displaySkinsPanelBtn_Click(object sender, EventArgs e)
         {
-            if (Settings.Default.skinTabEnabled == false)
+            if (Settings.Default.miscTabEnabled == false)
             {
                 MessageBox.Show("This tab is currently disabled! Please wait for the development team to re-enable it.", "Juicy Swapper v2 - Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -99,7 +99,7 @@ namespace Juicy_Swapper_v2.Forms
 
         private void displayMiscPanelTab_Click(object sender, EventArgs e)
         {
-            if (Settings.Default.miscTabEnabled == false)
+            if (Settings.Default.skinTabEnabled == false)
             {
                 MessageBox.Show("This tab is currently disabled! Please wait for the development team to re-enable it.", "Juicy Swapper v2 - Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -120,7 +120,7 @@ namespace Juicy_Swapper_v2.Forms
         private void displayItemShopFormBtn_Click(object sender, EventArgs e)
         {
             MessageBox.Show("This feature is currently work-in-progess. Thanks for your understanding!", "Juicy Swapper v2 - Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            //new ItemShop().ShowDialog();
+            new ItemShop().ShowDialog();
         }
 
         private void displaySettingsFormBtn_Click(object sender, EventArgs e)

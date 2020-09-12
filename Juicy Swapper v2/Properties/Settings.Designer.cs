@@ -25,7 +25,7 @@ namespace Juicy_Swapper_v2.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Program Files\\Epic Games\\Fortnite\\FortniteGame\\Content\\Paks")]
         public string pakPath {
             get {
                 return ((string)(this["pakPath"]));
@@ -50,12 +50,12 @@ namespace Juicy_Swapper_v2.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
-        public bool goobaEnabled {
+        public bool skinTabEnabled {
             get {
-                return ((bool)(this["goobaEnabled"]));
+                return ((bool)(this["skinTabEnabled"]));
             }
             set {
-                this["goobaEnabled"] = value;
+                this["skinTabEnabled"] = value;
             }
         }
         
@@ -68,18 +68,6 @@ namespace Juicy_Swapper_v2.Properties {
             }
             set {
                 this["miscTabEnabled"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("False")]
-        public bool skinTabEnabled {
-            get {
-                return ((bool)(this["skinTabEnabled"]));
-            }
-            set {
-                this["skinTabEnabled"] = value;
             }
         }
         
@@ -176,6 +164,114 @@ namespace Juicy_Swapper_v2.Properties {
             }
             set {
                 this["galacticDiscEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool stellarAxeEnabled {
+            get {
+                return ((bool)(this["stellarAxeEnabled"]));
+            }
+            set {
+                this["stellarAxeEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool raidersRevengeEnabled {
+            get {
+                return ((bool)(this["raidersRevengeEnabled"]));
+            }
+            set {
+                this["raidersRevengeEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool merryMintAxeEnabled {
+            get {
+                return ((bool)(this["merryMintAxeEnabled"]));
+            }
+            set {
+                this["merryMintAxeEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool bootstrapsEnabled {
+            get {
+                return ((bool)(this["bootstrapsEnabled"]));
+            }
+            set {
+                this["bootstrapsEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool driverEnabled {
+            get {
+                return ((bool)(this["driverEnabled"]));
+            }
+            set {
+                this["driverEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool harleyHitterEnabled {
+            get {
+                return ((bool)(this["harleyHitterEnabled"]));
+            }
+            set {
+                this["harleyHitterEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool widowsBiteEnabled {
+            get {
+                return ((bool)(this["widowsBiteEnabled"]));
+            }
+            set {
+                this["widowsBiteEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool candyAxeEnabled {
+            get {
+                return ((bool)(this["candyAxeEnabled"]));
+            }
+            set {
+                this["candyAxeEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool studdedAxeEnabled {
+            get {
+                return ((bool)(this["studdedAxeEnabled"]));
+            }
+            set {
+                this["studdedAxeEnabled"] = value;
             }
         }
     }

@@ -79,19 +79,19 @@ namespace Juicy_Swapper_v2.Classes
             }
             if (StatusResponse.MiscTabEnabled == false)
             {
-                Settings.Default.miscTabEnabled = false;
+                Settings.Default.skinTabEnabled = false;
             }
             else if (StatusResponse.MiscTabEnabled != false)
             {
-                Settings.Default.miscTabEnabled = true;
+                Settings.Default.skinTabEnabled = true;
             }
             if (StatusResponse.SkinTabEnabled == false)
             {
-                Settings.Default.skinTabEnabled = false;
+                Settings.Default.miscTabEnabled = false;
             }
             else if (StatusResponse.SkinTabEnabled != false)
             {
-                Settings.Default.skinTabEnabled = true;
+                Settings.Default.miscTabEnabled = true;
             }
 
         }

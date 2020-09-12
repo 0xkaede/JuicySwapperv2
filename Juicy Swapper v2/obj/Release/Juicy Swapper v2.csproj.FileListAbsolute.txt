@@ -41,3 +41,5 @@ C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\
 C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.GUI.Forms.Items.Skins.FallenLoveRanger.resources
 C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.GUI.Forms.Items.Skins.GhoulTrooper.resources
 C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.GUI.Forms.Items.Skins.Dummy.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.GUI.Forms.Items.Backblings.GalacticDisc.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.GUI.Forms.Items.Pickaxes.RaidersRevenge.resources
