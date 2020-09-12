@@ -8,22 +8,174 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Juicy_Swapper_v2.Properties
-{
-
-
+namespace Juicy_Swapper_v2.Properties {
+    
+    
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "11.0.0.0")]
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase
-    {
-
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.6.0.0")]
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
-
-        public static Settings Default
-        {
-            get
-            {
+        
+        public static Settings Default {
+            get {
                 return defaultInstance;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string pakPath {
+            get {
+                return ((string)(this["pakPath"]));
+            }
+            set {
+                this["pakPath"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int pakCount {
+            get {
+                return ((int)(this["pakCount"]));
+            }
+            set {
+                this["pakCount"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool goobaEnabled {
+            get {
+                return ((bool)(this["goobaEnabled"]));
+            }
+            set {
+                this["goobaEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool miscTabEnabled {
+            get {
+                return ((bool)(this["miscTabEnabled"]));
+            }
+            set {
+                this["miscTabEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skinTabEnabled {
+            get {
+                return ((bool)(this["skinTabEnabled"]));
+            }
+            set {
+                this["skinTabEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool renegadeRaiderEnabled {
+            get {
+                return ((bool)(this["renegadeRaiderEnabled"]));
+            }
+            set {
+                this["renegadeRaiderEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool renegadeRaiderCEnabled {
+            get {
+                return ((bool)(this["renegadeRaiderCEnabled"]));
+            }
+            set {
+                this["renegadeRaiderCEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool skullTrooperEnabled {
+            get {
+                return ((bool)(this["skullTrooperEnabled"]));
+            }
+            set {
+                this["skullTrooperEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool ghoulTrooperEnabled {
+            get {
+                return ((bool)(this["ghoulTrooperEnabled"]));
+            }
+            set {
+                this["ghoulTrooperEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool fallenLoveRangerEnabled {
+            get {
+                return ((bool)(this["fallenLoveRangerEnabled"]));
+            }
+            set {
+                this["fallenLoveRangerEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool dummyEnabled {
+            get {
+                return ((bool)(this["dummyEnabled"]));
+            }
+            set {
+                this["dummyEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool galaxyEnabled {
+            get {
+                return ((bool)(this["galaxyEnabled"]));
+            }
+            set {
+                this["galaxyEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool galacticDiscEnabled {
+            get {
+                return ((bool)(this["galacticDiscEnabled"]));
+            }
+            set {
+                this["galacticDiscEnabled"] = value;
             }
         }
     }

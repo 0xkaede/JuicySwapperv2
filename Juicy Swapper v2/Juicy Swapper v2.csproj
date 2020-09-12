@@ -1,17 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Costura.Fody.4.1.0\build\Costura.Fody.props" Condition="Exists('..\packages\Costura.Fody.4.1.0\build\Costura.Fody.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{56A6B446-86C7-4CAA-8A05-1A085287F0EC}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>WinExe</OutputType>
     <RootNamespace>Juicy_Swapper_v2</RootNamespace>
     <AssemblyName>Juicy Swapper v2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -36,6 +39,24 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>D:\source\repos\Juicy Swapper\JuicySwapper\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Costura, Version=4.1.0.0, Culture=neutral, PublicKeyToken=9919ef960d84173d, processorArchitecture=MSIL">
+      <HintPath>..\packages\Costura.Fody.4.1.0\lib\net40\Costura.dll</HintPath>
+    </Reference>
+    <Reference Include="DiscordRPC">
+      <HintPath>..\packages\DiscordRPC.1.0.118\DiscordRPC.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI">
+      <HintPath>D:\source\build\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\WindowsAPICodePack-Core.1.1.1\lib\Microsoft.WindowsAPICodePack.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack.Shell, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\WindowsAPICodePack-Shell.1.1.1\lib\Microsoft.WindowsAPICodePack.Shell.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -53,18 +74,280 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\API\ContentAPI.cs" />
+    <Compile Include="Classes\API\ItemShopAPI.cs" />
     <Compile Include="Classes\JuicyUtilities.cs" />
     <Compile Include="Classes\API\StatusAPI.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="GUI\Forms\Dialogs\BypassWarning.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="GUI\Forms\Dialogs\BypassWarning.designer.cs">
+      <DependentUpon>BypassWarning.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="GUI\Forms\Dialogs\OfflineMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Dialogs\OfflineMode.designer.cs">
+      <DependentUpon>OfflineMode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Dialogs\FortniteLaunch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Dialogs\FortniteLaunch.designer.cs">
+      <DependentUpon>FortniteLaunch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Dialogs\PakError.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Dialogs\PakError.designer.cs">
+      <DependentUpon>PakError.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Dialogs\ResetComplete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Dialogs\ResetComplete.designer.cs">
+      <DependentUpon>ResetComplete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Home.designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\ItemShop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\ItemShop.Designer.cs">
+      <DependentUpon>ItemShop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Backblings\GalacticDisc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Backblings\GalacticDisc.Designer.cs">
+      <DependentUpon>GalacticDisc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Miscellaneous\SickoMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Miscellaneous\SickoMode.Designer.cs">
+      <DependentUpon>SickoMode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Miscellaneous\Goosebumps.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Miscellaneous\Goosebumps.Designer.cs">
+      <DependentUpon>Goosebumps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Pickaxes\StellarAxe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Pickaxes\StellarAxe.Designer.cs">
+      <DependentUpon>StellarAxe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Questions\AstronomicalQuestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Questions\AstronomicalQuestion.Designer.cs">
+      <DependentUpon>AstronomicalQuestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Miscellaneous\Gooba.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Miscellaneous\Gooba.Designer.cs">
+      <DependentUpon>Gooba.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Skins\Galaxy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Skins\Galaxy.Designer.cs">
+      <DependentUpon>Galaxy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Skins\FallenLoveRanger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Skins\FallenLoveRanger.Designer.cs">
+      <DependentUpon>FallenLoveRanger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Skins\GhoulTrooper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Skins\GhoulTrooper.Designer.cs">
+      <DependentUpon>GhoulTrooper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Skins\Dummy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Skins\Dummy.Designer.cs">
+      <DependentUpon>Dummy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Skins\SkullTrooper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Skins\SkullTrooper.Designer.cs">
+      <DependentUpon>SkullTrooper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Skins\RenegadeRaiderC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Skins\RenegadeRaiderC.Designer.cs">
+      <DependentUpon>RenegadeRaiderC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Skins\RenegadeRaider.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Skins\RenegadeRaider.Designer.cs">
+      <DependentUpon>RenegadeRaider.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Loader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Loader.Designer.cs">
+      <DependentUpon>Loader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Program.cs" />
+    <Compile Include="GUI\Forms\Dialogs\ResetConfirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Dialogs\ResetConfirm.designer.cs">
+      <DependentUpon>ResetConfirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Settings.designer.cs">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Dialogs\Update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Dialogs\Update.designer.cs">
+      <DependentUpon>Update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Panels\BackblingsPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Panels\BackblingsPanel.Designer.cs">
+      <DependentUpon>BackblingsPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Panels\DashPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Panels\DashPanel.Designer.cs">
+      <DependentUpon>DashPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Panels\EmotesPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Panels\EmotesPanel.designer.cs">
+      <DependentUpon>EmotesPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Panels\MiscPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Panels\MiscPanel.Designer.cs">
+      <DependentUpon>MiscPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Panels\PickaxesPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Panels\PickaxesPanel.Designer.cs">
+      <DependentUpon>PickaxesPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Panels\SkinsPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Panels\SkinsPanel.Designer.cs">
+      <DependentUpon>SkinsPanel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="GUI\Forms\Dialogs\BypassWarning.resx">
+      <DependentUpon>BypassWarning.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Dialogs\OfflineMode.resx">
+      <DependentUpon>OfflineMode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Dialogs\FortniteLaunch.resx">
+      <DependentUpon>FortniteLaunch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Dialogs\PakError.resx">
+      <DependentUpon>PakError.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Dialogs\ResetComplete.resx">
+      <DependentUpon>ResetComplete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\ItemShop.resx">
+      <DependentUpon>ItemShop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Items\Backblings\GalacticDisc.resx">
+      <DependentUpon>GalacticDisc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Items\Miscellaneous\SickoMode.resx">
+      <DependentUpon>SickoMode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Items\Miscellaneous\Goosebumps.resx">
+      <DependentUpon>Goosebumps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Items\Miscellaneous\Gooba.resx">
+      <DependentUpon>Gooba.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Items\Pickaxes\StellarAxe.resx">
+      <DependentUpon>StellarAxe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Items\Questions\AstronomicalQuestion.resx">
+      <DependentUpon>AstronomicalQuestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Items\Skins\Galaxy.resx">
+      <DependentUpon>Galaxy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Items\Skins\FallenLoveRanger.resx">
+      <DependentUpon>FallenLoveRanger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Items\Skins\GhoulTrooper.resx">
+      <DependentUpon>GhoulTrooper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Items\Skins\Dummy.resx">
+      <DependentUpon>Dummy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Items\Skins\SkullTrooper.resx">
+      <DependentUpon>SkullTrooper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Items\Skins\RenegadeRaiderC.resx">
+      <DependentUpon>RenegadeRaiderC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Items\Skins\RenegadeRaider.resx">
+      <DependentUpon>RenegadeRaider.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Loader.resx">
+      <DependentUpon>Loader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Dialogs\ResetConfirm.resx">
+      <DependentUpon>ResetConfirm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Settings.resx">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Dialogs\Update.resx">
+      <DependentUpon>Update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Panels\BackblingsPanel.resx">
+      <DependentUpon>BackblingsPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Panels\DashPanel.resx">
+      <DependentUpon>DashPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Panels\EmotesPanel.resx">
+      <DependentUpon>EmotesPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Panels\MiscPanel.resx">
+      <DependentUpon>MiscPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Panels\PickaxesPanel.resx">
+      <DependentUpon>PickaxesPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Panels\SkinsPanel.resx">
+      <DependentUpon>SkinsPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -74,7 +357,11 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="app.config" />
+    <None Include="Configuration\app.config" />
+    <None Include="Configuration\packages.config" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -87,7 +374,91 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="Resources\BDayBeatsIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BurbankBigCondensed-Bold.otf" />
+    <None Include="Resources\GOOBAIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GOOBAPreview.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ASTRONOMICALIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\goosebumpsPreview.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SICKOMODEPreview.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StellarAxeIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\legendaryRarity.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\epicRarity.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\epicRarity.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CrowbarIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlazeIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Renegade_Raider_face_shot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renegade-raider-new-checkered-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SkullTrooperIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T-Variant-M-Grave-OG-Variant-L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ghoul_Trooper_Outfit_-_OG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New_Ghoul_Trooper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wooly_Warrior_-_Outfit_-_Fortnite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GalaxyIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RenegadeIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GalacticDiscIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NeonWingsIcon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Costura.Fody.4.1.0\build\Costura.Fody.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Costura.Fody.4.1.0\build\Costura.Fody.props'))" />
+    <Error Condition="!Exists('..\packages\Fody.6.2.5\build\Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Fody.6.2.5\build\Fody.targets'))" />
+  </Target>
+  <Import Project="..\packages\Fody.6.2.5\build\Fody.targets" Condition="Exists('..\packages\Fody.6.2.5\build\Fody.targets')" />
 </Project>

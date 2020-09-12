@@ -1,0 +1,43 @@
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\bin\Release\Juicy Swapper v2.exe.config
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\bin\Release\Juicy Swapper v2.exe
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\bin\Release\Juicy Swapper v2.pdb
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\bin\Release\Microsoft.WindowsAPICodePack.xml
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\bin\Release\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\bin\Release\Newtonsoft.Json.xml
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy Swapper v2.csprojAssemblyReference.cache
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\JuicySwapper.Main.GUI.BypassWarning.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.Forms.Dialogs.OfflineMode.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.Forms.Dialogs.FortniteLaunch.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.Forms.Dialogs.PakError.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.Forms.Dialogs.ResetComplete.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.Forms.Home.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.Forms.ItemShop.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.Forms.Loader.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.Forms.Dialogs.ResetConfirm.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.Forms.SettingsMenu.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.Forms.Dialogs.Update.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.Panels.BackblingsPanel.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.Panels.DashPanel.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.Panels.EmotesPanel.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.Panels.MiscPanel.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.Panels.PickaxesPanel.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.Panels.SkinsPanel.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.Properties.Resources.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy Swapper v2.csproj.GenerateResource.cache
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy Swapper v2.csproj.CoreCompileInputs.cache
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy Swapper v2.csproj.Fody.CopyLocal.cache
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy Swapper v2.csproj.CopyComplete
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy Swapper v2.exe
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy Swapper v2.pdb
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.GUI.Forms.Items.Miscellaneous.Gooba.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.GUI.Forms.Items.Miscellaneous.Goosebumps.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.GUI.Forms.Items.Questions.AstronomicalQuestion.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.GUI.Forms.Items.Miscellaneous.SickoMode.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.GUI.Forms.Items.Pickaxes.StellarAxe.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.GUI.Forms.Items.Skins.SkullTrooper.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.GUI.Forms.Items.Skins.RenegadeRaiderC.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.GUI.Forms.Items.Skins.RenegadeRaider.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.GUI.Forms.Items.Skins.Galaxy.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.GUI.Forms.Items.Skins.FallenLoveRanger.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.GUI.Forms.Items.Skins.GhoulTrooper.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.GUI.Forms.Items.Skins.Dummy.resources

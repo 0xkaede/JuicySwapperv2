@@ -11,3 +11,39 @@ D:\source\repos\Juicy Swapper v2\Juicy Swapper v2\Juicy Swapper v2\obj\Debug\Jui
 D:\source\repos\Juicy Swapper v2\Juicy Swapper v2\Juicy Swapper v2\obj\Debug\Juicy Swapper v2.csproj.CopyComplete
 D:\source\repos\Juicy Swapper v2\Juicy Swapper v2\Juicy Swapper v2\obj\Debug\Juicy Swapper v2.exe
 D:\source\repos\Juicy Swapper v2\Juicy Swapper v2\Juicy Swapper v2\obj\Debug\Juicy Swapper v2.pdb
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\bin\Debug\Juicy Swapper v2.exe.config
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\bin\Debug\Juicy Swapper v2.exe
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\bin\Debug\Juicy Swapper v2.pdb
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Debug\Juicy Swapper v2.csprojAssemblyReference.cache
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Debug\Juicy_Swapper_v2.Properties.Resources.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Debug\Juicy Swapper v2.csproj.GenerateResource.cache
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Debug\Juicy Swapper v2.csproj.CoreCompileInputs.cache
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Debug\Juicy Swapper v2.csproj.CopyComplete
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Debug\Juicy Swapper v2.exe
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Debug\Juicy Swapper v2.pdb
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\bin\Debug\DiscordRPC.dll
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Debug\Juicy_Swapper_v2.Forms.Loader.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Debug\Juicy_Swapper_v2.Panels.BackblingsPanel.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Debug\Juicy_Swapper_v2.Panels.DashPanel.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Debug\Juicy_Swapper_v2.Panels.EmotesPanel.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Debug\Juicy_Swapper_v2.Panels.MiscPanel.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Debug\Juicy_Swapper_v2.Panels.PickaxesPanel.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Debug\Juicy_Swapper_v2.Panels.SkinsPanel.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Debug\Juicy_Swapper_v2.Panels.SkinsPanelScroll.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Debug\Juicy_Swapper_v2.Forms.Home.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Debug\Juicy_Swapper_v2.Forms.ItemShop.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Debug\Juicy_Swapper_v2.Forms.Dialogs.ResetComplete.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Debug\Juicy_Swapper_v2.Forms.Dialogs.ResetConfirm.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Debug\Juicy_Swapper_v2.Forms.SettingsMenu.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Debug\Juicy_Swapper_v2.Forms.Dialogs.Update.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\bin\Debug\Microsoft.WindowsAPICodePack.xml
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Debug\JuicySwapper.Main.GUI.BypassWarning.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Debug\Juicy_Swapper_v2.Forms.Dialogs.OfflineMode.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Debug\Juicy_Swapper_v2.Forms.Dialogs.FortniteLaunch.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Debug\Juicy_Swapper_v2.Forms.Dialogs.PakError.resources

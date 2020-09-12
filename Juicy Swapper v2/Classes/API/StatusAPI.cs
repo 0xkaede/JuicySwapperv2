@@ -9,11 +9,20 @@ namespace Juicy_Swapper_v2.Classes.API
             [JsonProperty("isOnline")]
             public bool IsOnline { get; set; }
 
-            [JsonProperty("message")]
-            public string Message { get; set; }
+            [JsonProperty("offlineMessage")]
+            public string OfflineMessage { get; set; }
 
             [JsonProperty("version")]
             public string Version { get; set; }
+
+            [JsonProperty("outOfDateMessage")]
+            public string OutOfDateMessage { get; set; }
+
+            [JsonProperty("isSkinTabEnabled")]
+            public bool SkinTabEnabled { get; set; }
+
+            [JsonProperty("isMiscTabEnabled")]
+            public bool MiscTabEnabled { get; set; }
         }
     }
 }
