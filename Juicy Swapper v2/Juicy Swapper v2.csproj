@@ -404,7 +404,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="app.config" />
     <None Include="Configuration\app.config" />
     <None Include="Configuration\packages.config" />
     <None Include="Properties\Settings.settings">
