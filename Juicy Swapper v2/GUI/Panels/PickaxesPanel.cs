@@ -53,22 +53,28 @@ namespace Juicy_Swapper_v2.Panels
 
         private void bunifuImageButton7_Click(object sender, EventArgs e)
         {
-            //new Reaper().ShowDialog();
+            new WidowsBite().ShowDialog();
         }
 
         private void bunifuImageButton8_Click(object sender, EventArgs e)
         {
-            //new StellarAxe().ShowDialog();
+            new CandyAxe().ShowDialog();
         }
 
         private void bunifuImageButton9_Click(object sender, EventArgs e)
         {
-            //new OGDefault().ShowDialog();
+            new StuddedAxe().ShowDialog();
+        }
+
+        private void bunifuImageButton10_Click(object sender, EventArgs e)
+        {
+            new AxeOfChampions().ShowDialog();
         }
 
         private void closeButton_Click(object sender, EventArgs e)
         {
             Environment.Exit(0);
         }
+
     }
 }

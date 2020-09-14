@@ -2691,7 +2691,7 @@
         +64rAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="convertBtn.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="swapBtn.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAEwAAAAaCAIAAACSIi2WAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         wwAADsMBx2+oZAAAARVJREFUWEftz1srBFEcAHDPGxEhQogQuUUrhAghhJBru6zwJWbOZc6ZOfNZd+7n

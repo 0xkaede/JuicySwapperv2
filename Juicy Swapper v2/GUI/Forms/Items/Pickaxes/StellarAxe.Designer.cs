@@ -35,13 +35,13 @@
             this.formDragControl = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.itemDialogTextBox = new System.Windows.Forms.RichTextBox();
             this.swapBtnCurving = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.swapBtn = new Bunifu.Framework.UI.BunifuFlatButton();
             this.itemDialogPictureBoxDragControl = new Bunifu.Framework.UI.BunifuDragControl(this.components);
+            this.itemDialogPictureBox = new System.Windows.Forms.PictureBox();
             this.itemDialogHeaderLabelDragControl = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.closeBtn = new Bunifu.Framework.UI.BunifuImageButton();
-            this.itemDialogPictureBox = new System.Windows.Forms.PictureBox();
-            this.swapBtn = new Bunifu.Framework.UI.BunifuFlatButton();
-            ((System.ComponentModel.ISupportInitialize)(this.closeBtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.itemDialogPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.closeBtn)).BeginInit();
             this.SuspendLayout();
             // 
             // formCurving
@@ -86,46 +86,6 @@
             this.swapBtnCurving.ElipseRadius = 7;
             this.swapBtnCurving.TargetControl = this.swapBtn;
             // 
-            // itemDialogPictureBoxDragControl
-            // 
-            this.itemDialogPictureBoxDragControl.Fixed = true;
-            this.itemDialogPictureBoxDragControl.Horizontal = true;
-            this.itemDialogPictureBoxDragControl.TargetControl = this.itemDialogPictureBox;
-            this.itemDialogPictureBoxDragControl.Vertical = true;
-            // 
-            // itemDialogHeaderLabelDragControl
-            // 
-            this.itemDialogHeaderLabelDragControl.Fixed = true;
-            this.itemDialogHeaderLabelDragControl.Horizontal = true;
-            this.itemDialogHeaderLabelDragControl.TargetControl = this.itemDialogHeaderLabel;
-            this.itemDialogHeaderLabelDragControl.Vertical = true;
-            // 
-            // closeBtn
-            // 
-            this.closeBtn.BackColor = System.Drawing.Color.Transparent;
-            this.closeBtn.Image = ((System.Drawing.Image)(resources.GetObject("closeBtn.Image")));
-            this.closeBtn.ImageActive = null;
-            this.closeBtn.Location = new System.Drawing.Point(335, 12);
-            this.closeBtn.Name = "closeBtn";
-            this.closeBtn.Size = new System.Drawing.Size(21, 14);
-            this.closeBtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.closeBtn.TabIndex = 24;
-            this.closeBtn.TabStop = false;
-            this.closeBtn.Zoom = 10;
-            this.closeBtn.Click += new System.EventHandler(this.closeBtn_Click);
-            // 
-            // itemDialogPictureBox
-            // 
-            this.itemDialogPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("itemDialogPictureBox.Image")));
-            this.itemDialogPictureBox.Location = new System.Drawing.Point(16, 37);
-            this.itemDialogPictureBox.Name = "itemDialogPictureBox";
-            this.itemDialogPictureBox.Size = new System.Drawing.Size(138, 138);
-            this.itemDialogPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.itemDialogPictureBox.TabIndex = 27;
-            this.itemDialogPictureBox.TabStop = false;
-            this.itemDialogPictureBox.MouseEnter += new System.EventHandler(this.itemDialogPictureBox_MouseEnter);
-            this.itemDialogPictureBox.MouseLeave += new System.EventHandler(this.itemDialogPictureBox_MouseLeave);
-            // 
             // swapBtn
             // 
             this.swapBtn.Activecolor = System.Drawing.Color.Transparent;
@@ -163,6 +123,46 @@
             this.swapBtn.TextFont = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.swapBtn.Click += new System.EventHandler(this.swapBtn_Click);
             // 
+            // itemDialogPictureBoxDragControl
+            // 
+            this.itemDialogPictureBoxDragControl.Fixed = true;
+            this.itemDialogPictureBoxDragControl.Horizontal = true;
+            this.itemDialogPictureBoxDragControl.TargetControl = this.itemDialogPictureBox;
+            this.itemDialogPictureBoxDragControl.Vertical = true;
+            // 
+            // itemDialogPictureBox
+            // 
+            this.itemDialogPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("itemDialogPictureBox.Image")));
+            this.itemDialogPictureBox.Location = new System.Drawing.Point(16, 37);
+            this.itemDialogPictureBox.Name = "itemDialogPictureBox";
+            this.itemDialogPictureBox.Size = new System.Drawing.Size(138, 138);
+            this.itemDialogPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.itemDialogPictureBox.TabIndex = 27;
+            this.itemDialogPictureBox.TabStop = false;
+            this.itemDialogPictureBox.MouseEnter += new System.EventHandler(this.itemDialogPictureBox_MouseEnter);
+            this.itemDialogPictureBox.MouseLeave += new System.EventHandler(this.itemDialogPictureBox_MouseLeave);
+            // 
+            // itemDialogHeaderLabelDragControl
+            // 
+            this.itemDialogHeaderLabelDragControl.Fixed = true;
+            this.itemDialogHeaderLabelDragControl.Horizontal = true;
+            this.itemDialogHeaderLabelDragControl.TargetControl = this.itemDialogHeaderLabel;
+            this.itemDialogHeaderLabelDragControl.Vertical = true;
+            // 
+            // closeBtn
+            // 
+            this.closeBtn.BackColor = System.Drawing.Color.Transparent;
+            this.closeBtn.Image = ((System.Drawing.Image)(resources.GetObject("closeBtn.Image")));
+            this.closeBtn.ImageActive = null;
+            this.closeBtn.Location = new System.Drawing.Point(335, 12);
+            this.closeBtn.Name = "closeBtn";
+            this.closeBtn.Size = new System.Drawing.Size(21, 14);
+            this.closeBtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.closeBtn.TabIndex = 24;
+            this.closeBtn.TabStop = false;
+            this.closeBtn.Zoom = 10;
+            this.closeBtn.Click += new System.EventHandler(this.closeBtn_Click);
+            // 
             // StellarAxe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -177,8 +177,9 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "StellarAxe";
             this.Text = "Juicy Swapper v2 - Stellar Axe";
-            ((System.ComponentModel.ISupportInitialize)(this.closeBtn)).EndInit();
+            this.Load += new System.EventHandler(this.StellarAxe_Load);
             ((System.ComponentModel.ISupportInitialize)(this.itemDialogPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.closeBtn)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -177,6 +177,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Driver";
             this.Text = "Juicy Swapper v2 - Driver";
+            this.Load += new System.EventHandler(this.Driver_Load);
             ((System.ComponentModel.ISupportInitialize)(this.itemDialogPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.closeBtn)).EndInit();
             this.ResumeLayout(false);

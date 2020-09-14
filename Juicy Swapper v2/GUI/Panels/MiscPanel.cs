@@ -34,17 +34,52 @@ namespace Juicy_Swapper_v2.Panels
 
         private void bunifuImageButton3_Click(object sender, EventArgs e)
         {
-            //new SuperOGMusic().ShowDialog();
+            new MoneyMachine().ShowDialog();
         }
 
-        private void bunifuImageButton5_Click(object sender, EventArgs e)
+        private void bunifuImageButton4_Click(object sender, EventArgs e)
         {
             //new JuicyEAC1().ShowDialog();
         }
 
-        private void bunifuImageButton6_Click(object sender, EventArgs e)
+        private void bunifuImageButton5_Click(object sender, EventArgs e)
         {
             //new JuicyEAC2().ShowDialog();
+        }
+
+        private void bunifuImageButton6_Click(object sender, EventArgs e)
+        {
+            new AerialAssaultOne().ShowDialog();
+        }
+
+        private void bunifuImageButton7_Click(object sender, EventArgs e)
+        {
+            new CloudStrike().ShowDialog();
+        }
+
+        private void bunifuImageButton8_Click(object sender, EventArgs e)
+        {
+            new Discovery().ShowDialog();
+        }
+
+        private void bunifuImageButton9_Click(object sender, EventArgs e)
+        {
+            new GetDown().ShowDialog();
+        }
+
+        private void bunifuImageButton10_Click(object sender, EventArgs e)
+        {
+            new GoldUmbrella().ShowDialog();
+        }
+
+        private void bunifuImageButton11_Click(object sender, EventArgs e)
+        {
+            new Mako().ShowDialog();
+        }
+
+        private void bunifuImageButton12_Click(object sender, EventArgs e)
+        {
+            new Snowflake().ShowDialog();
         }
 
         private void closeButton_Click(object sender, EventArgs e)

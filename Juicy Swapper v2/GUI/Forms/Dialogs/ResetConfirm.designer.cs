@@ -63,7 +63,7 @@
             this.Sidebar.Location = new System.Drawing.Point(-3, -7);
             this.Sidebar.Name = "Sidebar";
             this.Sidebar.Quality = 10;
-            this.Sidebar.Size = new System.Drawing.Size(70, 202);
+            this.Sidebar.Size = new System.Drawing.Size(70, 186);
             this.Sidebar.TabIndex = 1;
             // 
             // dialogMsgHeaderLabel
@@ -91,11 +91,10 @@
             this.dialogMsgTextLabel.ForeColor = System.Drawing.Color.White;
             this.dialogMsgTextLabel.Location = new System.Drawing.Point(78, 40);
             this.dialogMsgTextLabel.Name = "dialogMsgTextLabel";
-            this.dialogMsgTextLabel.Size = new System.Drawing.Size(348, 84);
+            this.dialogMsgTextLabel.Size = new System.Drawing.Size(326, 63);
             this.dialogMsgTextLabel.TabIndex = 6;
             this.dialogMsgTextLabel.Text = "Are you sure you want to reset your swapper \r\nconfiguration? Doing so will reset " +
-    "all item\r\nstates and requires you to verify your game\r\nfiles in order to continu" +
-    "e using Juicy Swapper v2.";
+    "all item\r\nstates and all swapped items will be removed.";
             // 
             // confirmBtn
             // 
@@ -120,7 +119,7 @@
             this.confirmBtn.IconVisible = true;
             this.confirmBtn.IconZoom = 50D;
             this.confirmBtn.IsTab = false;
-            this.confirmBtn.Location = new System.Drawing.Point(350, 138);
+            this.confirmBtn.Location = new System.Drawing.Point(328, 122);
             this.confirmBtn.Name = "confirmBtn";
             this.confirmBtn.Normalcolor = System.Drawing.Color.Transparent;
             this.confirmBtn.OnHovercolor = System.Drawing.Color.Transparent;
@@ -157,7 +156,7 @@
             this.cancelBtn.IconVisible = true;
             this.cancelBtn.IconZoom = 50D;
             this.cancelBtn.IsTab = false;
-            this.cancelBtn.Location = new System.Drawing.Point(268, 138);
+            this.cancelBtn.Location = new System.Drawing.Point(246, 122);
             this.cancelBtn.Name = "cancelBtn";
             this.cancelBtn.Normalcolor = System.Drawing.Color.Transparent;
             this.cancelBtn.OnHovercolor = System.Drawing.Color.Transparent;
@@ -200,7 +199,7 @@
             this.closeButton.BackColor = System.Drawing.Color.Transparent;
             this.closeButton.Image = ((System.Drawing.Image)(resources.GetObject("closeButton.Image")));
             this.closeButton.ImageActive = null;
-            this.closeButton.Location = new System.Drawing.Point(408, 12);
+            this.closeButton.Location = new System.Drawing.Point(383, 12);
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(21, 14);
             this.closeButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -214,7 +213,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(22)))), ((int)(((byte)(42)))));
-            this.ClientSize = new System.Drawing.Size(441, 176);
+            this.ClientSize = new System.Drawing.Size(416, 160);
             this.Controls.Add(this.closeButton);
             this.Controls.Add(this.cancelBtn);
             this.Controls.Add(this.confirmBtn);

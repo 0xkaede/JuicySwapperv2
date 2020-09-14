@@ -177,6 +177,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Bootstraps";
             this.Text = "Juicy Swapper v2 - Bootstraps";
+            this.Load += new System.EventHandler(this.Bootstraps_Load);
             ((System.ComponentModel.ISupportInitialize)(this.itemDialogPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.closeBtn)).EndInit();
             this.ResumeLayout(false);

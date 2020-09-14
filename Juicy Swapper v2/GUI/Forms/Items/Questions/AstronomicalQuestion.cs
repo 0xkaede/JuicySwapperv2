@@ -20,6 +20,7 @@ namespace Juicy_Swapper_v2.GUI.Forms.Items.Questions
         {
             new SickoMode().ShowDialog();
         }
+
         private void goosebumpsFormLabel_Click(object sender, EventArgs e)
         {
             new Goosebumps().ShowDialog();
@@ -27,7 +28,7 @@ namespace Juicy_Swapper_v2.GUI.Forms.Items.Questions
 
         private void stargazingFormLabel_Click(object sender, EventArgs e)
         {
-
+            new Stargazing().ShowDialog();
         }
     }
 }

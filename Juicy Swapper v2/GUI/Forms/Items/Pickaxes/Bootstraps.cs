@@ -50,6 +50,14 @@ namespace Juicy_Swapper_v2.GUI.Forms.Items.Pickaxes
             {
                 MessageBox.Show("ERROR: Conflict found! You already have Harley Hitter swapped. Please revert this item to swap the current item or disregard this message!", "Juicy Swapper v2 - Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            else if (Settings.Default.widowsBiteEnabled == true || File.Exists(Settings.Default.pakPath + "\\pakchunk30-WindowsClient.pak"))
+            {
+                MessageBox.Show("ERROR: Conflict found! You already have Widow's Bite swapped. Please revert this item to swap the current item or disregard this message!", "Juicy Swapper v2 - Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else if (Settings.Default.studdedAxeEnabled == true || File.Exists(Settings.Default.pakPath + "\\pakchunk32-WindowsClient.pak"))
+            {
+                MessageBox.Show("ERROR: Conflict found! You already have Studded Axe swapped. Please revert this item to swap the current item or disregard this message!", "Juicy Swapper v2 - Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
             else
             {
                 if (swapBtn.Text == "Revert")
@@ -62,6 +70,18 @@ namespace Juicy_Swapper_v2.GUI.Forms.Items.Pickaxes
                     JuicyUtilities.AddCustomPak("https://cdn.discordapp.com/attachments/742462742312517713/754402095100198922/pakchunk69-WindowsClient.pak", "27", itemDialogTextBox, swapBtn);
                     Settings.Default.bootstrapsEnabled = true;
                 }
+            }
+        }
+
+        private void Bootstraps_Load(object sender, EventArgs e)
+        {
+            if (!File.Exists(Settings.Default.pakPath + "\\pakchunk27-WindowsClient.pak") || Settings.Default.bootstrapsEnabled == false)
+            {
+                swapBtn.Text = "Convert";
+            }
+            else
+            {
+                swapBtn.Text = "Revert";
             }
         }
     }

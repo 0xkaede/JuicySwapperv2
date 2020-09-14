@@ -178,6 +178,7 @@
             this.Name = "FallenLoveRanger";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Juicy Swapper v2 - Fallen Love Ranger";
+            this.Load += new System.EventHandler(this.FallenLoveRanger_Load);
             ((System.ComponentModel.ISupportInitialize)(this.itemDialogPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.closeBtn)).EndInit();
             this.ResumeLayout(false);

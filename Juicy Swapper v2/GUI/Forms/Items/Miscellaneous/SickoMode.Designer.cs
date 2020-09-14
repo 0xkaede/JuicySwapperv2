@@ -36,7 +36,7 @@
             this.formDragControl = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.itemDialogTextBox = new System.Windows.Forms.RichTextBox();
             this.itemDialogPictureBox = new System.Windows.Forms.PictureBox();
-            this.convertBtn = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.swapBtn = new Bunifu.Framework.UI.BunifuFlatButton();
             this.convertBtnCurving = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.itemDialogPictureBoxDragControl = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.itemDialogHeaderLabelDragControl = new Bunifu.Framework.UI.BunifuDragControl(this.components);
@@ -109,46 +109,47 @@
             this.itemDialogPictureBox.MouseEnter += new System.EventHandler(this.itemDialogPictureBox_MouseEnter);
             this.itemDialogPictureBox.MouseLeave += new System.EventHandler(this.itemDialogPictureBox_MouseLeave);
             // 
-            // convertBtn
+            // swapBtn
             // 
-            this.convertBtn.Activecolor = System.Drawing.Color.Transparent;
-            this.convertBtn.BackColor = System.Drawing.Color.Transparent;
-            this.convertBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("convertBtn.BackgroundImage")));
-            this.convertBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.convertBtn.BorderRadius = 0;
-            this.convertBtn.ButtonText = "Convert";
-            this.convertBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.convertBtn.DisabledColor = System.Drawing.Color.White;
-            this.convertBtn.ForeColor = System.Drawing.Color.White;
-            this.convertBtn.Iconcolor = System.Drawing.Color.Transparent;
-            this.convertBtn.Iconimage = null;
-            this.convertBtn.Iconimage_right = null;
-            this.convertBtn.Iconimage_right_Selected = null;
-            this.convertBtn.Iconimage_Selected = null;
-            this.convertBtn.IconMarginLeft = 0;
-            this.convertBtn.IconMarginRight = 0;
-            this.convertBtn.IconRightVisible = true;
-            this.convertBtn.IconRightZoom = 0D;
-            this.convertBtn.IconVisible = true;
-            this.convertBtn.IconZoom = 50D;
-            this.convertBtn.IsTab = false;
-            this.convertBtn.Location = new System.Drawing.Point(279, 185);
-            this.convertBtn.Name = "convertBtn";
-            this.convertBtn.Normalcolor = System.Drawing.Color.Transparent;
-            this.convertBtn.OnHovercolor = System.Drawing.Color.Transparent;
-            this.convertBtn.OnHoverTextColor = System.Drawing.Color.White;
-            this.convertBtn.selected = false;
-            this.convertBtn.Size = new System.Drawing.Size(76, 26);
-            this.convertBtn.TabIndex = 25;
-            this.convertBtn.Text = "Convert";
-            this.convertBtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.convertBtn.Textcolor = System.Drawing.Color.White;
-            this.convertBtn.TextFont = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.swapBtn.Activecolor = System.Drawing.Color.Transparent;
+            this.swapBtn.BackColor = System.Drawing.Color.Transparent;
+            this.swapBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("swapBtn.BackgroundImage")));
+            this.swapBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.swapBtn.BorderRadius = 0;
+            this.swapBtn.ButtonText = "Convert";
+            this.swapBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.swapBtn.DisabledColor = System.Drawing.Color.White;
+            this.swapBtn.ForeColor = System.Drawing.Color.White;
+            this.swapBtn.Iconcolor = System.Drawing.Color.Transparent;
+            this.swapBtn.Iconimage = null;
+            this.swapBtn.Iconimage_right = null;
+            this.swapBtn.Iconimage_right_Selected = null;
+            this.swapBtn.Iconimage_Selected = null;
+            this.swapBtn.IconMarginLeft = 0;
+            this.swapBtn.IconMarginRight = 0;
+            this.swapBtn.IconRightVisible = true;
+            this.swapBtn.IconRightZoom = 0D;
+            this.swapBtn.IconVisible = true;
+            this.swapBtn.IconZoom = 50D;
+            this.swapBtn.IsTab = false;
+            this.swapBtn.Location = new System.Drawing.Point(279, 185);
+            this.swapBtn.Name = "swapBtn";
+            this.swapBtn.Normalcolor = System.Drawing.Color.Transparent;
+            this.swapBtn.OnHovercolor = System.Drawing.Color.Transparent;
+            this.swapBtn.OnHoverTextColor = System.Drawing.Color.White;
+            this.swapBtn.selected = false;
+            this.swapBtn.Size = new System.Drawing.Size(76, 26);
+            this.swapBtn.TabIndex = 25;
+            this.swapBtn.Text = "Convert";
+            this.swapBtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.swapBtn.Textcolor = System.Drawing.Color.White;
+            this.swapBtn.TextFont = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.swapBtn.Click += new System.EventHandler(this.swapBtn_Click);
             // 
             // convertBtnCurving
             // 
             this.convertBtnCurving.ElipseRadius = 7;
-            this.convertBtnCurving.TargetControl = this.convertBtn;
+            this.convertBtnCurving.TargetControl = this.swapBtn;
             // 
             // itemDialogPictureBoxDragControl
             // 
@@ -216,11 +217,12 @@
             this.Controls.Add(this.itemDialogHeaderLabel);
             this.Controls.Add(this.itemDialogTextBox);
             this.Controls.Add(this.itemDialogPictureBox);
-            this.Controls.Add(this.convertBtn);
+            this.Controls.Add(this.swapBtn);
             this.Controls.Add(this.previewBtn);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "SickoMode";
             this.Text = "Juicy Swapper v2 - SICKO MODE";
+            this.Load += new System.EventHandler(this.SickoMode_Load);
             ((System.ComponentModel.ISupportInitialize)(this.closeBtn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.itemDialogPictureBox)).EndInit();
             this.ResumeLayout(false);
@@ -235,7 +237,7 @@
         private System.Windows.Forms.Label itemDialogHeaderLabel;
         private System.Windows.Forms.RichTextBox itemDialogTextBox;
         private System.Windows.Forms.PictureBox itemDialogPictureBox;
-        private Bunifu.Framework.UI.BunifuFlatButton convertBtn;
+        private Bunifu.Framework.UI.BunifuFlatButton swapBtn;
         private Bunifu.Framework.UI.BunifuFlatButton previewBtn;
         private Bunifu.Framework.UI.BunifuDragControl formDragControl;
         private Bunifu.Framework.UI.BunifuElipse convertBtnCurving;

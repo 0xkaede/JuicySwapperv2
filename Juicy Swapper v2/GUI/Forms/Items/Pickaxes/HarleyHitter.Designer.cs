@@ -177,6 +177,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "HarleyHitter";
             this.Text = "Juicy Swapper v2 - Harley Hitter";
+            this.Load += new System.EventHandler(this.HarleyHitter_Load);
             ((System.ComponentModel.ISupportInitialize)(this.itemDialogPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.closeBtn)).EndInit();
             this.ResumeLayout(false);

@@ -26,9 +26,15 @@ namespace Juicy_Swapper_v2.Panels
             new GalacticDisc().ShowDialog();
         }
 
+        private void bunifuImageButton2_Click(object sender, EventArgs e)
+        {
+            new RainbowClover().ShowDialog();
+        }
+
         private void closeButton_Click(object sender, EventArgs e)
         {
             Environment.Exit(0);
         }
+
     }
 }

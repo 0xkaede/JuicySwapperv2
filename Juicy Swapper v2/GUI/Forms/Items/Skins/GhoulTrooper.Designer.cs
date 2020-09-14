@@ -178,6 +178,7 @@
             this.Name = "GhoulTrooper";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Juicy Swapper v2 - Ghoul Trooper (Pink)";
+            this.Load += new System.EventHandler(this.GhoulTrooper_Load);
             ((System.ComponentModel.ISupportInitialize)(this.itemDialogPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.closeBtn)).EndInit();
             this.ResumeLayout(false);

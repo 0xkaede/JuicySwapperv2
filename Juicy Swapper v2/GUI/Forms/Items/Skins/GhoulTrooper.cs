@@ -1,6 +1,7 @@
 ﻿using Juicy_Swapper_v2.Classes;
 using Juicy_Swapper_v2.Properties;
 using System;
+using System.IO;
 using System.Windows.Forms;
 
 namespace Juicy_Swapper_v2.GUI.Forms.Items.Skins
@@ -36,8 +37,20 @@ namespace Juicy_Swapper_v2.GUI.Forms.Items.Skins
             }
             else if (swapBtn.Text == "Convert")
             {
-                JuicyUtilities.AddCustomPak("", "19", itemDialogTextBox, swapBtn);
+                JuicyUtilities.AddCustomPak("https://cdn.discordapp.com/attachments/742462742312517713/754842962965299220/pakchunk69-WindowsClient.pak", "19", itemDialogTextBox, swapBtn);
                 Settings.Default.ghoulTrooperEnabled = true;
+            }
+        }
+
+        private void GhoulTrooper_Load(object sender, EventArgs e)
+        {
+            if (!File.Exists(Settings.Default.pakPath + "\\pakchunk19-WindowsClient.pak") || Settings.Default.ghoulTrooperEnabled == false)
+            {
+                swapBtn.Text = "Convert";
+            }
+            else
+            {
+                swapBtn.Text = "Revert";
             }
         }
     }

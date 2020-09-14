@@ -41,5 +41,17 @@ namespace Juicy_Swapper_v2.GUI.Forms.Items.Skins
                 Settings.Default.galaxyEnabled = true;
             }
         }
+
+        private void Galaxy_Load(object sender, EventArgs e)
+        {
+            if (!File.Exists(Settings.Default.pakPath + "\\pakchunk22-WindowsClient.pak") || Settings.Default.galaxyEnabled == false)
+            {
+                swapBtn.Text = "Convert";
+            }
+            else
+            {
+                swapBtn.Text = "Revert";
+            }
+        }
     }
 }

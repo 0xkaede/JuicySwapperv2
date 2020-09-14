@@ -274,5 +274,173 @@ namespace Juicy_Swapper_v2.Properties {
                 this["studdedAxeEnabled"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool axeOfChampionsEnabled {
+            get {
+                return ((bool)(this["axeOfChampionsEnabled"]));
+            }
+            set {
+                this["axeOfChampionsEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool rainbowCloverEnabled {
+            get {
+                return ((bool)(this["rainbowCloverEnabled"]));
+            }
+            set {
+                this["rainbowCloverEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool goobaEnabled {
+            get {
+                return ((bool)(this["goobaEnabled"]));
+            }
+            set {
+                this["goobaEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool goosebumpsEnabled {
+            get {
+                return ((bool)(this["goosebumpsEnabled"]));
+            }
+            set {
+                this["goosebumpsEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool sickoModeEnabled {
+            get {
+                return ((bool)(this["sickoModeEnabled"]));
+            }
+            set {
+                this["sickoModeEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool stargazingEnabled {
+            get {
+                return ((bool)(this["stargazingEnabled"]));
+            }
+            set {
+                this["stargazingEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool moneyMachineEnabled {
+            get {
+                return ((bool)(this["moneyMachineEnabled"]));
+            }
+            set {
+                this["moneyMachineEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool aerialAssaultOneEnabled {
+            get {
+                return ((bool)(this["aerialAssaultOneEnabled"]));
+            }
+            set {
+                this["aerialAssaultOneEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool cloudStrikeEnabled {
+            get {
+                return ((bool)(this["cloudStrikeEnabled"]));
+            }
+            set {
+                this["cloudStrikeEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool discoveryEnabled {
+            get {
+                return ((bool)(this["discoveryEnabled"]));
+            }
+            set {
+                this["discoveryEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool getDownEnabled {
+            get {
+                return ((bool)(this["getDownEnabled"]));
+            }
+            set {
+                this["getDownEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool goldUmbrellaEnabled {
+            get {
+                return ((bool)(this["goldUmbrellaEnabled"]));
+            }
+            set {
+                this["goldUmbrellaEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool makoEnabled {
+            get {
+                return ((bool)(this["makoEnabled"]));
+            }
+            set {
+                this["makoEnabled"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool snowflakeEnabled {
+            get {
+                return ((bool)(this["snowflakeEnabled"]));
+            }
+            set {
+                this["snowflakeEnabled"] = value;
+            }
+        }
     }
 }

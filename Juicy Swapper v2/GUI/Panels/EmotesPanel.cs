@@ -55,29 +55,9 @@ namespace Juicy_Swapper_v2.Panels
             //new Levitate().ShowDialog();
         }
 
-        private void bunifuImageButton14_Click(object sender, EventArgs e)
+        private void bunifuImageButton8_Click(object sender, EventArgs e)
         {
-            //new Infectious().ShowDialog();
-        }
-
-        private void bunifuImageButton13_Click(object sender, EventArgs e)
-        {
-            //new PonyUp().ShowDialog();
-        }
-
-        private void bunifuImageButton12_Click(object sender, EventArgs e)
-        {
-            //new Glowsticks().ShowDialog();
-        }
-
-        private void bunifuImageButton11_Click(object sender, EventArgs e)
-        {
-            //new Flapper().ShowDialog();
-        }
-
-        private void bunifuImageButton10_Click(object sender, EventArgs e)
-        {
-            //new Daydream().ShowDialog();
+            //new Poki().ShowDialog();
         }
 
         private void bunifuImageButton9_Click(object sender, EventArgs e)
@@ -85,79 +65,29 @@ namespace Juicy_Swapper_v2.Panels
             //new Llamacadabra().ShowDialog();
         }
 
-        private void bunifuImageButton8_Click(object sender, EventArgs e)
+        private void bunifuImageButton10_Click(object sender, EventArgs e)
         {
-            //new Poki().ShowDialog();
+            //new Daydream().ShowDialog();
         }
 
-        private void bunifuImageButton21_Click(object sender, EventArgs e)
+        private void bunifuImageButton11_Click(object sender, EventArgs e)
         {
-            //new TheWorm().ShowDialog();
+            //new Flapper().ShowDialog();
         }
 
-        private void bunifuImageButton20_Click(object sender, EventArgs e)
+        private void bunifuImageButton12_Click(object sender, EventArgs e)
         {
-            //new ToosieSlide().ShowDialog();
+            //new Glowsticks().ShowDialog();
         }
 
-        private void bunifuImageButton19_Click(object sender, EventArgs e)
+        private void bunifuImageButton13_Click(object sender, EventArgs e)
         {
-            //new Fishin().ShowDialog();
+            //new PonyUp().ShowDialog();
         }
 
-        private void bunifuImageButton18_Click(object sender, EventArgs e)
+        private void bunifuImageButton14_Click(object sender, EventArgs e)
         {
-            //new SmoothMoves().ShowDialog();
-        }
-
-        private void bunifuImageButton17_Click(object sender, EventArgs e)
-        {
-            //new Freestylin().ShowDialog();
-        }
-
-        private void bunifuImageButton16_Click(object sender, EventArgs e)
-        {
-            //new CheerUp().ShowDialog();
-        }
-
-        private void bunifuImageButton15_Click(object sender, EventArgs e)
-        {
-            //new Fresh().ShowDialog();
-        }
-
-        private void bunifuImageButton22_Click(object sender, EventArgs e)
-        {
-            //new PopLock().ShowDialog();
-        }
-
-        private void bunifuImageButton23_Click(object sender, EventArgs e)
-        {
-            //new OrangeJustice().ShowDialog();
-        }
-
-        private void bunifuImageButton24_Click(object sender, EventArgs e)
-        {
-            //new TheRenegade().ShowDialog();
-        }
-
-        private void bunifuImageButton25_Click(object sender, EventArgs e)
-        {
-            //new BhangraBoogie().ShowDialog();
-        }
-
-        private void bunifuImageButton26_Click(object sender, EventArgs e)
-        {
-            //new OutWest().ShowDialog();
-        }
-
-        private void bunifuImageButton27_Click(object sender, EventArgs e)
-        {
-            //new BuckleUp().ShowDialog();
-        }
-
-        private void bunifuImageButton28_Click(object sender, EventArgs e)
-        {
-            //new ButterflyKnife().ShowDialog();
+            //new Infectious().ShowDialog();
         }
 
         private void closeButton_Click(object sender, EventArgs e)

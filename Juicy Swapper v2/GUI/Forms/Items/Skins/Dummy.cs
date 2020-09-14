@@ -48,5 +48,17 @@ namespace Juicy_Swapper_v2.GUI.Forms.Items.Skins
                 }
             }
         }
+
+        private void Dummy_Load(object sender, EventArgs e)
+        {
+            if (!File.Exists(Settings.Default.pakPath + "\\pakchunk21-WindowsClient.pak") || Settings.Default.dummyEnabled == false)
+            {
+                swapBtn.Text = "Convert";
+            }
+            else
+            {
+                swapBtn.Text = "Revert";
+            }
+        }
     }
 }

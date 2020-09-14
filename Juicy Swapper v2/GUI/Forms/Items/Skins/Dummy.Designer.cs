@@ -178,6 +178,7 @@
             this.Name = "Dummy";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Juicy Swapper v2 - Dummy";
+            this.Load += new System.EventHandler(this.Dummy_Load);
             ((System.ComponentModel.ISupportInitialize)(this.itemDialogPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.closeBtn)).EndInit();
             this.ResumeLayout(false);

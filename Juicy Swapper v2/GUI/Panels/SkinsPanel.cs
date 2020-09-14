@@ -1,4 +1,5 @@
 ﻿using Juicy_Swapper_v2.GUI.Forms.Items.Skins;
+using JuicySwapper.Main.GUI;
 using System;
 using System.Windows.Forms;
 
@@ -43,16 +44,19 @@ namespace Juicy_Swapper_v2.Panels
 
         private void bunifuImageButton5_Click(object sender, EventArgs e)
         {
+            new BypassWarning().ShowDialog();
             new FallenLoveRanger().ShowDialog();
         }
 
         private void bunifuImageButton6_Click(object sender, EventArgs e)
         {
+            new BypassWarning().ShowDialog();
             new Dummy().ShowDialog();
         }
 
         private void bunifuImageButton7_Click(object sender, EventArgs e)
         {
+            new BypassWarning().ShowDialog();
             new Galaxy().ShowDialog();
         }
 

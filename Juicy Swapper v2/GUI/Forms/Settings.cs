@@ -136,5 +136,10 @@ namespace Juicy_Swapper_v2.Forms
             };
             Process.Start(OpenPaks);
         }
+
+        private void removePakBtn_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This feature is currently work-in-progess. Thanks for your understanding!", "Juicy Swapper v2 - Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }

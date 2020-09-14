@@ -32,7 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Loader));
             this.timer = new System.Windows.Forms.Timer(this.components);
             this.formDragControl = new Bunifu.Framework.UI.BunifuDragControl(this.components);
-            this.loaderProgressBar = new Guna.UI.WinForms.GunaProgressBar();
+            this.loaderProgressBar = new Bunifu.Framework.UI.BunifuProgressBar();
             this.SuspendLayout();
             // 
             // timer
@@ -50,15 +50,14 @@
             // loaderProgressBar
             // 
             this.loaderProgressBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(52)))));
-            this.loaderProgressBar.BorderColor = System.Drawing.Color.Black;
-            this.loaderProgressBar.ColorStyle = Guna.UI.WinForms.ColorStyle.Transition;
-            this.loaderProgressBar.IdleColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(52)))));
-            this.loaderProgressBar.Location = new System.Drawing.Point(0, 254);
+            this.loaderProgressBar.BorderRadius = 1;
+            this.loaderProgressBar.Location = new System.Drawing.Point(0, 252);
+            this.loaderProgressBar.MaximumValue = 100;
             this.loaderProgressBar.Name = "loaderProgressBar";
-            this.loaderProgressBar.ProgressMaxColor = System.Drawing.Color.DarkOrange;
-            this.loaderProgressBar.ProgressMinColor = System.Drawing.Color.DarkOrange;
-            this.loaderProgressBar.Size = new System.Drawing.Size(480, 16);
-            this.loaderProgressBar.TabIndex = 4;
+            this.loaderProgressBar.ProgressColor = System.Drawing.Color.DarkOrange;
+            this.loaderProgressBar.Size = new System.Drawing.Size(486, 19);
+            this.loaderProgressBar.TabIndex = 0;
+            this.loaderProgressBar.Value = 0;
             // 
             // Loader
             // 
@@ -69,6 +68,7 @@
             this.ClientSize = new System.Drawing.Size(480, 270);
             this.Controls.Add(this.loaderProgressBar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Loader";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Juicy Swapper v2";
@@ -79,6 +79,6 @@
         #endregion
         private System.Windows.Forms.Timer timer;
         private Bunifu.Framework.UI.BunifuDragControl formDragControl;
-        private Guna.UI.WinForms.GunaProgressBar loaderProgressBar;
+        private Bunifu.Framework.UI.BunifuProgressBar loaderProgressBar;
     }
 }

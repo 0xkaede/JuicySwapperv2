@@ -178,6 +178,7 @@
             this.Name = "RenegadeRaider";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Juicy Swapper v2 - Renegade Raider";
+            this.Load += new System.EventHandler(this.RenegadeRaider_Load);
             ((System.ComponentModel.ISupportInitialize)(this.itemDialogPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.closeBtn)).EndInit();
             this.ResumeLayout(false);

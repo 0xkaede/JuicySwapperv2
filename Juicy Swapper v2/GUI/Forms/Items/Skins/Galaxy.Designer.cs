@@ -178,6 +178,7 @@
             this.Name = "Galaxy";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Juicy Swapper v2 - Galaxy";
+            this.Load += new System.EventHandler(this.Galaxy_Load);
             ((System.ComponentModel.ISupportInitialize)(this.itemDialogPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.closeBtn)).EndInit();
             this.ResumeLayout(false);

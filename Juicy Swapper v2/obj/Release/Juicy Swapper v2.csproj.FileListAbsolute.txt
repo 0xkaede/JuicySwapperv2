@@ -47,3 +47,17 @@ C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\
 C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.GUI.Forms.Items.Pickaxes.Driver.resources
 C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.GUI.Forms.Items.Pickaxes.Bootstraps.resources
 C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.GUI.Forms.Items.Pickaxes.MerryMintAxe.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.GUI.Forms.Items.Pickaxes.AxeOfChampions.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.GUI.Forms.Items.Pickaxes.StuddedAxe.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.GUI.Forms.Items.Pickaxes.CandyAxe.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.GUI.Forms.Items.Pickaxes.WidowsBite.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.GUI.Forms.Items.Backblings.RainbowClover.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.GUI.Forms.Items.Miscellaneous.Snowflake.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.GUI.Forms.Items.Miscellaneous.Mako.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.GUI.Forms.Items.Miscellaneous.GoldUmbrella.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.GUI.Forms.Items.Miscellaneous.GetDown.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.GUI.Forms.Items.Miscellaneous.Discovery.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.GUI.Forms.Items.Miscellaneous.CloudStrike.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.GUI.Forms.Items.Miscellaneous.AerialAssaultOne.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.GUI.Forms.Items.Miscellaneous.MoneyMachine.resources
+C:\Users\Darkblade\Documents\GitHub\JuicySwapperv2\Juicy Swapper v2\obj\Release\Juicy_Swapper_v2.GUI.Forms.Items.Miscellaneous.Stargazing.resources

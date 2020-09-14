@@ -86,15 +86,16 @@ namespace Juicy_Swapper_v2.Forms
 
         private void displayEmotesPanelBtn_Click(object sender, EventArgs e)
         {
-            JuicyUtilities.SetRPCLocation("Emotes", "emoteimg");
-            if (!formWrapper.Controls.Contains(EmotesPanel.Instance))
-            {
-                formWrapper.Controls.Add(EmotesPanel.Instance);
-                EmotesPanel.Instance.Dock = DockStyle.Fill;
-                EmotesPanel.Instance.BringToFront();
-            }
-            else
-                EmotesPanel.Instance.BringToFront();
+            MessageBox.Show("This tab is currently disabled! Please wait for the development team to re-enable it.", "Juicy Swapper v2 - Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //    JuicyUtilities.SetRPCLocation("Emotes", "emoteimg");
+            //    if (!formWrapper.Controls.Contains(EmotesPanel.Instance))
+            //    {
+            //        formWrapper.Controls.Add(EmotesPanel.Instance);
+            //        EmotesPanel.Instance.Dock = DockStyle.Fill;
+            //        EmotesPanel.Instance.BringToFront();
+            //    }
+            //    else
+            //        EmotesPanel.Instance.BringToFront();
         }
 
         private void displayMiscPanelTab_Click(object sender, EventArgs e)
@@ -120,7 +121,7 @@ namespace Juicy_Swapper_v2.Forms
         private void displayItemShopFormBtn_Click(object sender, EventArgs e)
         {
             MessageBox.Show("This feature is currently work-in-progess. Thanks for your understanding!", "Juicy Swapper v2 - Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            new ItemShop().ShowDialog();
+            //new ItemShop().ShowDialog();
         }
 
         private void displaySettingsFormBtn_Click(object sender, EventArgs e)

@@ -17,7 +17,7 @@ namespace Juicy_Swapper_v2.Forms
 
         private void timer_Tick(object sender, EventArgs e)
         {
-            if (loaderProgressBar.Value == 100)
+            if (loaderProgressBar.Value == 99)
             {
                 timer.Enabled = false;
                 Form Home = new Home();

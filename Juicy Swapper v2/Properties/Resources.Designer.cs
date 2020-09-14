@@ -63,9 +63,29 @@ namespace Juicy_Swapper_v2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap AerialAssaultOneIcon {
+            get {
+                object obj = ResourceManager.GetObject("AerialAssaultOneIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ASTRONOMICALIcon {
             get {
                 object obj = ResourceManager.GetObject("ASTRONOMICALIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap AxeOfChampionsIcon {
+            get {
+                object obj = ResourceManager.GetObject("AxeOfChampionsIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +133,49 @@ namespace Juicy_Swapper_v2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap CandyAxeIcon {
+            get {
+                object obj = ResourceManager.GetObject("CandyAxeIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CloudStrikeIcon {
+            get {
+                object obj = ResourceManager.GetObject("CloudStrikeIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CombatWreathIcon {
+            get {
+                object obj = ResourceManager.GetObject("CombatWreathIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap CrowbarIcon {
             get {
                 object obj = ResourceManager.GetObject("CrowbarIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DiscoveryIcon {
+            get {
+                object obj = ResourceManager.GetObject("DiscoveryIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +213,29 @@ namespace Juicy_Swapper_v2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap EVAIcon {
+            get {
+                object obj = ResourceManager.GetObject("EVAIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FallenLoveRangerIcon {
             get {
                 object obj = ResourceManager.GetObject("FallenLoveRangerIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FoundersGliderIcon {
+            get {
+                object obj = ResourceManager.GetObject("FoundersGliderIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,6 +263,16 @@ namespace Juicy_Swapper_v2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap GetDownIcon {
+            get {
+                object obj = ResourceManager.GetObject("GetDownIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap GhoulTrooperIcon {
             get {
                 object obj = ResourceManager.GetObject("GhoulTrooperIcon", resourceCulture);
@@ -196,6 +286,26 @@ namespace Juicy_Swapper_v2.Properties {
         internal static System.Drawing.Bitmap GhoulTrooperPinkIcon {
             get {
                 object obj = ResourceManager.GetObject("GhoulTrooperPinkIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap GoldenKingIcon {
+            get {
+                object obj = ResourceManager.GetObject("GoldenKingIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap GoldUmbrellaIcon {
+            get {
+                object obj = ResourceManager.GetObject("GoldUmbrellaIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -251,9 +361,29 @@ namespace Juicy_Swapper_v2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap MakoIcon {
+            get {
+                object obj = ResourceManager.GetObject("MakoIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap MerryMintAxeIcon {
             get {
                 object obj = ResourceManager.GetObject("MerryMintAxeIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MoneyMachineIcon {
+            get {
+                object obj = ResourceManager.GetObject("MoneyMachineIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -274,6 +404,16 @@ namespace Juicy_Swapper_v2.Properties {
         internal static System.Drawing.Bitmap RaidersRevengeIcon {
             get {
                 object obj = ResourceManager.GetObject("RaidersRevengeIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RainbowCloverIcon {
+            get {
+                object obj = ResourceManager.GetObject("RainbowCloverIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -340,6 +480,16 @@ namespace Juicy_Swapper_v2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap SnowflakeIcon {
+            get {
+                object obj = ResourceManager.GetObject("SnowflakeIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap StellarAxeIcon {
             get {
                 object obj = ResourceManager.GetObject("StellarAxeIcon", resourceCulture);
@@ -350,9 +500,49 @@ namespace Juicy_Swapper_v2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap StuddedAxeIcon {
+            get {
+                object obj = ResourceManager.GetObject("StuddedAxeIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TheCrackdownIcon {
+            get {
+                object obj = ResourceManager.GetObject("TheCrackdownIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WidowsBiteIcon {
+            get {
+                object obj = ResourceManager.GetObject("WidowsBiteIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap WoolyWarriorIcon {
             get {
                 object obj = ResourceManager.GetObject("WoolyWarriorIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap XIcon {
+            get {
+                object obj = ResourceManager.GetObject("XIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

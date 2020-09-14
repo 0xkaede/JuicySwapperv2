@@ -38,6 +38,9 @@
   <PropertyGroup>
     <StartupObject />
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Bunifu_UI_v1.5.3">
       <HintPath>D:\source\repos\Juicy Swapper\JuicySwapper\Bunifu_UI_v1.5.3.dll</HintPath>
@@ -119,11 +122,71 @@
     <Compile Include="GUI\Forms\ItemShop.Designer.cs">
       <DependentUpon>ItemShop.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\Forms\Items\Backblings\RainbowClover.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Backblings\RainbowClover.Designer.cs">
+      <DependentUpon>RainbowClover.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\Forms\Items\Backblings\GalacticDisc.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GUI\Forms\Items\Backblings\GalacticDisc.Designer.cs">
       <DependentUpon>GalacticDisc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Miscellaneous\Snowflake.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Miscellaneous\Snowflake.Designer.cs">
+      <DependentUpon>Snowflake.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Miscellaneous\Mako.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Miscellaneous\Mako.Designer.cs">
+      <DependentUpon>Mako.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Miscellaneous\GoldUmbrella.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Miscellaneous\GoldUmbrella.Designer.cs">
+      <DependentUpon>GoldUmbrella.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Miscellaneous\GetDown.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Miscellaneous\GetDown.Designer.cs">
+      <DependentUpon>GetDown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Miscellaneous\Discovery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Miscellaneous\Discovery.Designer.cs">
+      <DependentUpon>Discovery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Miscellaneous\CloudStrike.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Miscellaneous\CloudStrike.Designer.cs">
+      <DependentUpon>CloudStrike.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Miscellaneous\AerialAssaultOne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Miscellaneous\AerialAssaultOne.Designer.cs">
+      <DependentUpon>AerialAssaultOne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Miscellaneous\MoneyMachine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Miscellaneous\MoneyMachine.Designer.cs">
+      <DependentUpon>MoneyMachine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Miscellaneous\Stargazing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Miscellaneous\Stargazing.Designer.cs">
+      <DependentUpon>Stargazing.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\Forms\Items\Miscellaneous\SickoMode.cs">
       <SubType>Form</SubType>
@@ -136,6 +199,30 @@
     </Compile>
     <Compile Include="GUI\Forms\Items\Miscellaneous\Goosebumps.Designer.cs">
       <DependentUpon>Goosebumps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Pickaxes\AxeOfChampions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Pickaxes\AxeOfChampions.Designer.cs">
+      <DependentUpon>AxeOfChampions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Pickaxes\StuddedAxe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Pickaxes\StuddedAxe.Designer.cs">
+      <DependentUpon>StuddedAxe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Pickaxes\CandyAxe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Pickaxes\CandyAxe.Designer.cs">
+      <DependentUpon>CandyAxe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Pickaxes\WidowsBite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Forms\Items\Pickaxes\WidowsBite.Designer.cs">
+      <DependentUpon>WidowsBite.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\Forms\Items\Pickaxes\HarleyHitter.cs">
       <SubType>Form</SubType>
@@ -310,8 +397,38 @@
     <EmbeddedResource Include="GUI\Forms\ItemShop.resx">
       <DependentUpon>ItemShop.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Items\Backblings\RainbowClover.resx">
+      <DependentUpon>RainbowClover.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\Forms\Items\Backblings\GalacticDisc.resx">
       <DependentUpon>GalacticDisc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Items\Miscellaneous\Snowflake.resx">
+      <DependentUpon>Snowflake.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Items\Miscellaneous\Mako.resx">
+      <DependentUpon>Mako.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Items\Miscellaneous\GoldUmbrella.resx">
+      <DependentUpon>GoldUmbrella.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Items\Miscellaneous\GetDown.resx">
+      <DependentUpon>GetDown.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Items\Miscellaneous\Discovery.resx">
+      <DependentUpon>Discovery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Items\Miscellaneous\CloudStrike.resx">
+      <DependentUpon>CloudStrike.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Items\Miscellaneous\AerialAssaultOne.resx">
+      <DependentUpon>AerialAssaultOne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Items\Miscellaneous\MoneyMachine.resx">
+      <DependentUpon>MoneyMachine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Items\Miscellaneous\Stargazing.resx">
+      <DependentUpon>Stargazing.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Forms\Items\Miscellaneous\SickoMode.resx">
       <DependentUpon>SickoMode.cs</DependentUpon>
@@ -321,6 +438,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Forms\Items\Miscellaneous\Gooba.resx">
       <DependentUpon>Gooba.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Items\Pickaxes\AxeOfChampions.resx">
+      <DependentUpon>AxeOfChampions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Items\Pickaxes\StuddedAxe.resx">
+      <DependentUpon>StuddedAxe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Items\Pickaxes\CandyAxe.resx">
+      <DependentUpon>CandyAxe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Forms\Items\Pickaxes\WidowsBite.resx">
+      <DependentUpon>WidowsBite.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Forms\Items\Pickaxes\HarleyHitter.resx">
       <DependentUpon>HarleyHitter.cs</DependentUpon>
@@ -509,6 +638,66 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\HarleyHitterIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WidowsBiteIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CandyAxeIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EVAIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GoldenKingIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AxeOfChampionsIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StuddedAxeIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CombatWreathIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RainbowCloverIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MoneyMachineIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TheCrackdownIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CloudStrikeIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AerialAssaultOneIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DiscoveryIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GetDownIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GoldUmbrellaIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MakoIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SnowflakeIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\XIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FoundersGliderIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

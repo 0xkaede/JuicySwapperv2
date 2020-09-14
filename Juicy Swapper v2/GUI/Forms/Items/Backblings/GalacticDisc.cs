@@ -1,6 +1,7 @@
 ﻿using Juicy_Swapper_v2.Classes;
 using Juicy_Swapper_v2.Properties;
 using System;
+using System.IO;
 using System.Windows.Forms;
 
 namespace Juicy_Swapper_v2.GUI.Forms.Items.Backblings
@@ -39,6 +40,18 @@ namespace Juicy_Swapper_v2.GUI.Forms.Items.Backblings
                 JuicyUtilities.AddCustomPak("https://cdn.discordapp.com/attachments/742462742312517713/754440825668239441/pakchunk69-WindowsClient.pak", "23", itemDialogTextBox, swapBtn);
                 Settings.Default.galacticDiscEnabled = true;
             }                
+        }
+
+        private void GalacticDisc_Load(object sender, EventArgs e)
+        {
+            if (!File.Exists(Settings.Default.pakPath + "\\pakchunk23-WindowsClient.pak") || Settings.Default.galacticDiscEnabled ==false)
+            {
+                swapBtn.Text = "Convert";
+            }
+            else
+            {
+                swapBtn.Text = "Revert";
+            }
         }
     }
 }

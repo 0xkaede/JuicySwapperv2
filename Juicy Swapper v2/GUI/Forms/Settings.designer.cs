@@ -75,7 +75,7 @@
             this.Sidebar.Location = new System.Drawing.Point(-3, -7);
             this.Sidebar.Name = "Sidebar";
             this.Sidebar.Quality = 10;
-            this.Sidebar.Size = new System.Drawing.Size(70, 205);
+            this.Sidebar.Size = new System.Drawing.Size(70, 201);
             this.Sidebar.TabIndex = 1;
             // 
             // pakLabel
@@ -431,7 +431,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(22)))), ((int)(((byte)(42)))));
-            this.ClientSize = new System.Drawing.Size(498, 179);
+            this.ClientSize = new System.Drawing.Size(498, 175);
             this.Controls.Add(this.openPakDirBtn);
             this.Controls.Add(this.checkPakDirBtn);
             this.Controls.Add(this.launchFortniteBtn);
