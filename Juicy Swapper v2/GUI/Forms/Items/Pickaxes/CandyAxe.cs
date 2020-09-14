@@ -34,11 +34,13 @@ namespace Juicy_Swapper_v2.GUI.Forms.Items.Pickaxes
             {
                 JuicyUtilities.RemoveCustomPak("31", itemDialogTextBox, swapBtn);
                 Settings.Default.candyAxeEnabled = false;
+                Settings.Default.Save();
             }
             else if (swapBtn.Text == "Convert")
             {
                 JuicyUtilities.AddCustomPak("https://cdn.discordapp.com/attachments/742462742312517713/749770028286607390/pakchunk69-WindowsClient.pak", "31", itemDialogTextBox, swapBtn);
                 Settings.Default.candyAxeEnabled = true;
+                Settings.Default.Save();
             }
         }
 

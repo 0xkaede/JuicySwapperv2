@@ -35,11 +35,13 @@ namespace Juicy_Swapper_v2.GUI.Forms.Items.Miscellaneous
             {
                 JuicyUtilities.RemoveCustomPak("38", itemDialogTextBox, swapBtn);
                 Settings.Default.stargazingEnabled = false;
+                Settings.Default.Save();
             }
             else if (swapBtn.Text == "Convert")
             {
                 JuicyUtilities.AddCustomPak("https://cdn.discordapp.com/attachments/742462742312517713/754843242893410405/pakchunk69-WindowsClient.pak", "38", itemDialogTextBox, swapBtn);
                 Settings.Default.stargazingEnabled = true;
+                Settings.Default.Save();
             }
         }
 

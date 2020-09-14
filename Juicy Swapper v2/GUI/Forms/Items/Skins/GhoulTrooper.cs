@@ -34,11 +34,13 @@ namespace Juicy_Swapper_v2.GUI.Forms.Items.Skins
             {
                 JuicyUtilities.RemoveCustomPak("19", itemDialogTextBox, swapBtn);
                 Settings.Default.ghoulTrooperEnabled = false;
+                Settings.Default.Save();
             }
             else if (swapBtn.Text == "Convert")
             {
                 JuicyUtilities.AddCustomPak("https://cdn.discordapp.com/attachments/742462742312517713/754842962965299220/pakchunk69-WindowsClient.pak", "19", itemDialogTextBox, swapBtn);
                 Settings.Default.ghoulTrooperEnabled = true;
+                Settings.Default.Save();
             }
         }
 

@@ -40,11 +40,13 @@ namespace Juicy_Swapper_v2.GUI.Forms.Items.Skins
                 {
                     JuicyUtilities.RemoveCustomPak("17", itemDialogTextBox, swapBtn);
                     Settings.Default.renegadeRaiderCEnabled = false;
+                    Settings.Default.Save();
                 }
                 else if (swapBtn.Text == "Convert")
                 {
                     JuicyUtilities.AddCustomPak("https://cdn.discordapp.com/attachments/742462742312517713/754402394778894356/pakchunk69-WindowsClient.pak", "17", itemDialogTextBox, swapBtn);
                     Settings.Default.renegadeRaiderCEnabled = true;
+                    Settings.Default.Save();
                 }
             }               
         }

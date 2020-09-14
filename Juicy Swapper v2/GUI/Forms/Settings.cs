@@ -17,11 +17,6 @@ namespace Juicy_Swapper_v2.Forms
             InitializeComponent();
         }
 
-        private void discordButton_Click(object sender, EventArgs e)
-        {
-            Process.Start("https://juicyswapper.xyz/discord");
-        }
-
         private void closeButton_Click(object sender, EventArgs e)
         {
             Close();
@@ -135,11 +130,6 @@ namespace Juicy_Swapper_v2.Forms
                 Arguments = Settings.Default.pakPath
             };
             Process.Start(OpenPaks);
-        }
-
-        private void removePakBtn_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("This feature is currently work-in-progess. Thanks for your understanding!", "Juicy Swapper v2 - Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

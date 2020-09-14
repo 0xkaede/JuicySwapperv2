@@ -35,11 +35,13 @@ namespace Juicy_Swapper_v2.GUI.Forms.Items.Miscellaneous
             {
                 JuicyUtilities.RemoveCustomPak("39", itemDialogTextBox, swapBtn);
                 Settings.Default.moneyMachineEnabled = false;
+                Settings.Default.Save();
             }
             else if (swapBtn.Text == "Convert")
             {
                 JuicyUtilities.AddCustomPak("https://cdn.discordapp.com/attachments/742462742312517713/754842848527909004/pakchunk69-WindowsClient.pak", "39", itemDialogTextBox, swapBtn);
                 Settings.Default.moneyMachineEnabled = true;
+                Settings.Default.Save();
             }
         }
 

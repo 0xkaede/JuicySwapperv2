@@ -34,11 +34,13 @@ namespace Juicy_Swapper_v2.GUI.Forms.Items.Backblings
             {
                 JuicyUtilities.RemoveCustomPak("23", itemDialogTextBox, swapBtn);
                 Settings.Default.galacticDiscEnabled = false;
+                Settings.Default.Save();
             }
             else if (swapBtn.Text == "Convert")
             {
                 JuicyUtilities.AddCustomPak("https://cdn.discordapp.com/attachments/742462742312517713/754440825668239441/pakchunk69-WindowsClient.pak", "23", itemDialogTextBox, swapBtn);
                 Settings.Default.galacticDiscEnabled = true;
+                Settings.Default.Save();
             }                
         }
 

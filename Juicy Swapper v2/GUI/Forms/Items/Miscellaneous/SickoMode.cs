@@ -51,11 +51,13 @@ namespace Juicy_Swapper_v2.GUI.Forms.Items.Miscellaneous
             {
                 JuicyUtilities.RemoveCustomPak("37", itemDialogTextBox, swapBtn);
                 Settings.Default.sickoModeEnabled = false;
+                Settings.Default.Save();
             }
             else if (swapBtn.Text == "Convert")
             {
                 JuicyUtilities.AddCustomPak("https://cdn.discordapp.com/attachments/742462742312517713/754843093437644820/pakchunk69-WindowsClient.pak", "37", itemDialogTextBox, swapBtn);
                 Settings.Default.sickoModeEnabled = true;
+                Settings.Default.Save();
             }
         }
     }
