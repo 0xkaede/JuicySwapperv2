@@ -1,4 +1,5 @@
-﻿using Juicy_Swapper_v2.Properties;
+﻿using Juicy_Swapper_v2.Classes;
+using Juicy_Swapper_v2.Properties;
 using System;
 using System.Media;
 using System.Windows.Forms;
@@ -20,9 +21,7 @@ namespace Juicy_Swapper_v2.Forms.Dialogs
 
         private void confirmButton_Click(object sender, EventArgs e)
         {
-            //Settings.Default.pakCount = false;
-            //
-            Settings.Default.Save();
+            JuicyUtilities.ResetSwapperConfig();
             new ResetComplete().ShowDialog();
             Close();
         }

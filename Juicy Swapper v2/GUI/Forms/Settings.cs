@@ -63,11 +63,161 @@ namespace Juicy_Swapper_v2.Forms
             //
             //Skins enabled
             //
-            //if (Settings.Default.pakCount == true)
+            if (Settings.Default.renegadeRaiderEnabled == true)
             {
                 num++;
-                text += "Recon Specialist," + " ";
-            }            
+                text += "Renegade Raider (Standard)," + " ";
+            }
+            if (Settings.Default.renegadeRaiderCEnabled == true)
+            {
+                num++;
+                text += "Renegade Raider (Checkered)," + " ";
+            }
+            if (Settings.Default.skullTrooperEnabled == true)
+            {
+                num++;
+                text += "Skull Trooper," + " ";
+            }
+            if (Settings.Default.ghoulTrooperEnabled == true)
+            {
+                num++;
+                text += "Ghoul Trooper," + " ";
+            }
+            if (Settings.Default.fallenLoveRangerEnabled == true)
+            {
+                num++;
+                text += "Fallen Love Ranger," + " ";
+            }
+            if (Settings.Default.dummyEnabled == true)
+            {
+                num++;
+                text += "Dummy," + " ";
+            }
+            if (Settings.Default.galaxyEnabled == true)
+            {
+                num++;
+                text += "Galaxy," + " ";
+            }
+            if (Settings.Default.galacticDiscEnabled == true)
+            {
+                num++;
+                text += "Galactic Disc," + " ";
+            }
+            if (Settings.Default.stellarAxeEnabled == true)
+            {
+                num++;
+                text += "Stellar Axe," + " ";
+            }
+            if (Settings.Default.raidersRevengeEnabled == true)
+            {
+                num++;
+                text += "Raider's Revenge," + " ";
+            }
+            if (Settings.Default.merryMintAxeEnabled == true)
+            {
+                num++;
+                text += "Merry Mint Axe," + " ";
+            }
+            if (Settings.Default.bootstrapsEnabled == true)
+            {
+                num++;
+                text += "Bootstraps," + " ";
+            }
+            if (Settings.Default.driverEnabled == true)
+            {
+                num++;
+                text += "Driver," + " ";
+            }
+            if (Settings.Default.harleyHitterEnabled == true)
+            {
+                num++;
+                text += "Harley Hitter," + " ";
+            }
+            if (Settings.Default.widowsBiteEnabled == true)
+            {
+                num++;
+                text += "Widow's Bite," + " ";
+            }
+            if (Settings.Default.candyAxeEnabled == true)
+            {
+                num++;
+                text += "Candy Axe," + " ";
+            }
+            if (Settings.Default.studdedAxeEnabled == true)
+            {
+                num++;
+                text += "Studded Axe," + " ";
+            }
+            if (Settings.Default.axeOfChampionsEnabled == true)
+            {
+                num++;
+                text += "Axe Of Champions," + " ";
+            }
+            if (Settings.Default.rainbowCloverEnabled == true)
+            {
+                num++;
+                text += "Rainbow Clover," + " ";
+            }
+            if (Settings.Default.goobaEnabled == true)
+            {
+                num++;
+                text += "GOOBA," + " ";
+            }
+            if (Settings.Default.goosebumpsEnabled == true)
+            {
+                num++;
+                text += "goosebumps," + " ";
+            }
+            if (Settings.Default.sickoModeEnabled == true)
+            {
+                num++;
+                text += "SICKO MODE," + " ";
+            }
+            if (Settings.Default.stargazingEnabled == true)
+            {
+                num++;
+                text += "STARGAZING (pt. II)," + " ";
+            }
+            if (Settings.Default.moneyMachineEnabled == true)
+            {
+                num++;
+                text += "money machine," + " ";
+            }
+            if (Settings.Default.aerialAssaultOneEnabled == true)
+            {
+                num++;
+                text += "Aerial Assault One," + " ";
+            }
+            if (Settings.Default.cloudStrikeEnabled == true)
+            {
+                num++;
+                text += "Cloud Strike," + " ";
+            }
+            if (Settings.Default.discoveryEnabled == true)
+            {
+                num++;
+                text += "Discovery," + " ";
+            }
+            if (Settings.Default.getDownEnabled == true)
+            {
+                num++;
+                text += "Get Down!," + " ";
+            }
+            if (Settings.Default.goldUmbrellaEnabled == true)
+            {
+                num++;
+                text += "Gold Umbrella," + " ";
+            }
+            if (Settings.Default.makoEnabled == true)
+            {
+                num++;
+                text += "Mako," + " ";
+            }
+            if (Settings.Default.snowflakeEnabled == true)
+            {
+                num++;
+                text += "Snowflake," + " ";
+            }
             //
             if (num == 0)
             {

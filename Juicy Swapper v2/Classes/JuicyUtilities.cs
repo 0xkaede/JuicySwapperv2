@@ -11,6 +11,8 @@ using Juicy_Swapper_v2.Properties;
 using Juicy_Swapper_v2.Forms.Dialogs;
 using System.Media;
 using System.Threading.Tasks;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Juicy_Swapper_v2.Classes
 {
@@ -255,6 +257,172 @@ namespace Juicy_Swapper_v2.Classes
             Settings.Default.Save();
             Button.Text = "Convert";
             TextBox.Text += "\n[LOG] Reversion complete!";
+        }
+
+        public static void ResetSwapperConfig()
+        {
+            List<string> itemEntries = Directory.GetFiles(Settings.Default.pakPath).ToList();
+
+            if (itemEntries.Contains("pakchunk16-WindowsClient.pak"))
+            {
+                File.Delete(Settings.Default.pakPath + "\\pakchunk16-WindowsClient.pak");
+                File.Delete(Settings.Default.pakPath + "\\pakchunk16-WindowsClient.sig");
+            }
+            if (itemEntries.Contains("pakchunk17-WindowsClient.pak"))
+            {
+                File.Delete(Settings.Default.pakPath + "\\pakchunk17-WindowsClient.pak");
+                File.Delete(Settings.Default.pakPath + "\\pakchunk17-WindowsClient.sig");
+            }
+            if (itemEntries.Contains("pakchunk18-WindowsClient.pak"))
+            {
+                File.Delete(Settings.Default.pakPath + "\\pakchunk18-WindowsClient.pak");
+                File.Delete(Settings.Default.pakPath + "\\pakchunk18-WindowsClient.sig");
+            }
+            if (itemEntries.Contains("pakchunk19-WindowsClient.pak"))
+            {
+                File.Delete(Settings.Default.pakPath + "\\pakchunk19-WindowsClient.pak");
+                File.Delete(Settings.Default.pakPath + "\\pakchunk19-WindowsClient.sig");
+            }
+            if (itemEntries.Contains("pakchunk20-WindowsClient.pak"))
+            {
+                File.Delete(Settings.Default.pakPath + "\\pakchunk20-WindowsClient.pak");
+                File.Delete(Settings.Default.pakPath + "\\pakchunk20-WindowsClient.sig");
+            }
+            if (itemEntries.Contains("pakchunk21-WindowsClient.pak"))
+            {
+                File.Delete(Settings.Default.pakPath + "\\pakchunk21-WindowsClient.pak");
+                File.Delete(Settings.Default.pakPath + "\\pakchunk21-WindowsClient.sig");
+            }
+            if (itemEntries.Contains("pakchunk22-WindowsClient.pak"))
+            {
+                File.Delete(Settings.Default.pakPath + "\\pakchunk22-WindowsClient.pak");
+                File.Delete(Settings.Default.pakPath + "\\pakchunk22-WindowsClient.sig");
+            }
+            if (itemEntries.Contains("pakchunk23-WindowsClient.pak"))
+            {
+                File.Delete(Settings.Default.pakPath + "\\pakchunk23-WindowsClient.pak");
+                File.Delete(Settings.Default.pakPath + "\\pakchunk23-WindowsClient.sig");
+            }
+            if (itemEntries.Contains("pakchunk24-WindowsClient.pak"))
+            {
+                File.Delete(Settings.Default.pakPath + "\\pakchunk24-WindowsClient.pak");
+                File.Delete(Settings.Default.pakPath + "\\pakchunk24-WindowsClient.sig");
+            }
+            if (itemEntries.Contains("pakchunk25-WindowsClient.pak"))
+            {
+                File.Delete(Settings.Default.pakPath + "\\pakchunk25-WindowsClient.pak");
+                File.Delete(Settings.Default.pakPath + "\\pakchunk25-WindowsClient.sig");
+            }
+            if (itemEntries.Contains("pakchunk26-WindowsClient.pak"))
+            {
+                File.Delete(Settings.Default.pakPath + "\\pakchunk26-WindowsClient.pak");
+                File.Delete(Settings.Default.pakPath + "\\pakchunk26-WindowsClient.sig");
+            }
+            if (itemEntries.Contains("pakchunk27-WindowsClient.pak"))
+            {
+                File.Delete(Settings.Default.pakPath + "\\pakchunk27-WindowsClient.pak");
+                File.Delete(Settings.Default.pakPath + "\\pakchunk27-WindowsClient.sig");
+            }
+            if (itemEntries.Contains("pakchunk28-WindowsClient.pak"))
+            {
+                File.Delete(Settings.Default.pakPath + "\\pakchunk28-WindowsClient.pak");
+                File.Delete(Settings.Default.pakPath + "\\pakchunk28-WindowsClient.sig");
+            }
+            if (itemEntries.Contains("pakchunk29-WindowsClient.pak"))
+            {
+                File.Delete(Settings.Default.pakPath + "\\pakchunk29-WindowsClient.pak");
+                File.Delete(Settings.Default.pakPath + "\\pakchunk29-WindowsClient.sig");
+            }
+            if (itemEntries.Contains("pakchunk30-WindowsClient.pak"))
+            {
+                File.Delete(Settings.Default.pakPath + "\\pakchunk30-WindowsClient.pak");
+                File.Delete(Settings.Default.pakPath + "\\pakchunk30-WindowsClient.sig");
+            }
+            if (itemEntries.Contains("pakchunk31-WindowsClient.pak"))
+            {
+                File.Delete(Settings.Default.pakPath + "\\pakchunk31-WindowsClient.pak");
+                File.Delete(Settings.Default.pakPath + "\\pakchunk31-WindowsClient.sig");
+            }
+            if (itemEntries.Contains("pakchunk32-WindowsClient.pak"))
+            {
+                File.Delete(Settings.Default.pakPath + "\\pakchunk32-WindowsClient.pak");
+                File.Delete(Settings.Default.pakPath + "\\pakchunk32-WindowsClient.sig");
+            }
+            if (itemEntries.Contains("pakchunk33-WindowsClient.pak"))
+            {
+                File.Delete(Settings.Default.pakPath + "\\pakchunk33-WindowsClient.pak");
+                File.Delete(Settings.Default.pakPath + "\\pakchunk33-WindowsClient.sig");
+            }
+            if (itemEntries.Contains("pakchunk34-WindowsClient.pak"))
+            {
+                File.Delete(Settings.Default.pakPath + "\\pakchunk34-WindowsClient.pak");
+                File.Delete(Settings.Default.pakPath + "\\pakchunk34-WindowsClient.sig");
+            }
+            if (itemEntries.Contains("pakchunk35-WindowsClient.pak"))
+            {
+                File.Delete(Settings.Default.pakPath + "\\pakchunk35-WindowsClient.pak");
+                File.Delete(Settings.Default.pakPath + "\\pakchunk35-WindowsClient.sig");
+            }
+            if (itemEntries.Contains("pakchunk36-WindowsClient.pak"))
+            {
+                File.Delete(Settings.Default.pakPath + "\\pakchunk36-WindowsClient.pak");
+                File.Delete(Settings.Default.pakPath + "\\pakchunk36-WindowsClient.sig");
+            }
+            if (itemEntries.Contains("pakchunk37-WindowsClient.pak"))
+            {
+                File.Delete(Settings.Default.pakPath + "\\pakchunk37-WindowsClient.pak");
+                File.Delete(Settings.Default.pakPath + "\\pakchunk37-WindowsClient.sig");
+            }
+            if (itemEntries.Contains("pakchunk38-WindowsClient.pak"))
+            {
+                File.Delete(Settings.Default.pakPath + "\\pakchunk38-WindowsClient.pak");
+                File.Delete(Settings.Default.pakPath + "\\pakchunk38-WindowsClient.sig");
+            }
+            if (itemEntries.Contains("pakchunk39-WindowsClient.pak"))
+            {
+                File.Delete(Settings.Default.pakPath + "\\pakchunk39-WindowsClient.pak");
+                File.Delete(Settings.Default.pakPath + "\\pakchunk39-WindowsClient.sig");
+            }
+            if (itemEntries.Contains("pakchunk40-WindowsClient.pak"))
+            {
+                File.Delete(Settings.Default.pakPath + "\\pakchunk40-WindowsClient.pak");
+                File.Delete(Settings.Default.pakPath + "\\pakchunk40-WindowsClient.sig");
+            }
+            if (itemEntries.Contains("pakchunk41-WindowsClient.pak"))
+            {
+                File.Delete(Settings.Default.pakPath + "\\pakchunk41-WindowsClient.pak");
+                File.Delete(Settings.Default.pakPath + "\\pakchunk41-WindowsClient.sig");
+            }
+            if (itemEntries.Contains("pakchunk42-WindowsClient.pak"))
+            {
+                File.Delete(Settings.Default.pakPath + "\\pakchunk42-WindowsClient.pak");
+                File.Delete(Settings.Default.pakPath + "\\pakchunk42-WindowsClient.sig");
+            }
+            if (itemEntries.Contains("pakchunk43-WindowsClient.pak"))
+            {
+                File.Delete(Settings.Default.pakPath + "\\pakchunk43-WindowsClient.pak");
+                File.Delete(Settings.Default.pakPath + "\\pakchunk43-WindowsClient.sig");
+            }
+            if (itemEntries.Contains("pakchunk44-WindowsClient.pak"))
+            {
+                File.Delete(Settings.Default.pakPath + "\\pakchunk44-WindowsClient.pak");
+                File.Delete(Settings.Default.pakPath + "\\pakchunk44-WindowsClient.sig");
+            }
+            if (itemEntries.Contains("pakchunk45-WindowsClient.pak"))
+            {
+                File.Delete(Settings.Default.pakPath + "\\pakchunk45-WindowsClient.pak");
+                File.Delete(Settings.Default.pakPath + "\\pakchunk45-WindowsClient.sig");
+            }
+            if (itemEntries.Contains("pakchunk46-WindowsClient.pak"))
+            {
+                File.Delete(Settings.Default.pakPath + "\\pakchunk46-WindowsClient.pak");
+                File.Delete(Settings.Default.pakPath + "\\pakchunk46-WindowsClient.sig");
+            }
+
+            Settings.Default.Reset();
+            FindPaks();
+            GetStatus();
+            Settings.Default.Save();
         }
     }
 }

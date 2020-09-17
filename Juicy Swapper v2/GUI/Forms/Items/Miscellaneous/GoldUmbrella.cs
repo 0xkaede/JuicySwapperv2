@@ -38,7 +38,7 @@ namespace Juicy_Swapper_v2.GUI.Forms.Items.Miscellaneous
             }
             else if (swapBtn.Text == "Convert")
             {
-                JuicyUtilities.AddCustomPak("https://cdn.discordapp.com/attachments/742462742312517713/754842439570686003/pakchunk69-WindowsClient.pak", "44", itemDialogTextBox, swapBtn);
+                JuicyUtilities.AddCustomPak("https://cdn.discordapp.com/attachments/742462742312517713/756240859917189201/pakchunk69-WindowsClient.pak", "44", itemDialogTextBox, swapBtn);
                 Settings.Default.goldUmbrellaEnabled = true;
                 Settings.Default.Save();
             }                

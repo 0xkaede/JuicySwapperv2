@@ -51,9 +51,6 @@
     <Reference Include="DiscordRPC">
       <HintPath>..\packages\DiscordRPC.1.0.118\DiscordRPC.dll</HintPath>
     </Reference>
-    <Reference Include="Guna.UI">
-      <HintPath>D:\source\build\Guna.UI.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.WindowsAPICodePack, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\WindowsAPICodePack-Core.1.1.1\lib\Microsoft.WindowsAPICodePack.dll</HintPath>
     </Reference>
