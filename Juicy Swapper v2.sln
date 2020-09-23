@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Juicy Swapper v2", "Juicy Swapper v2\Juicy Swapper v2.csproj", "{56A6B446-86C7-4CAA-8A05-1A085287F0EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Juicy Updater", "D:\source\repos\Juicy Swapper\JuicyUpdater\Juicy Updater.csproj", "{23D34A5F-61F1-49C0-989C-E1AF3D216D89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{56A6B446-86C7-4CAA-8A05-1A085287F0EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56A6B446-86C7-4CAA-8A05-1A085287F0EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56A6B446-86C7-4CAA-8A05-1A085287F0EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23D34A5F-61F1-49C0-989C-E1AF3D216D89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23D34A5F-61F1-49C0-989C-E1AF3D216D89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23D34A5F-61F1-49C0-989C-E1AF3D216D89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23D34A5F-61F1-49C0-989C-E1AF3D216D89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
