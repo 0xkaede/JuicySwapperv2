@@ -18,7 +18,7 @@ namespace Juicy_Swapper_v2.Classes
 {
     class JuicyUtilities
     {
-        public static readonly DiscordRpcClient DiscordRPC = new DiscordRpcClient("753411856999121049");
+        public static readonly DiscordRpcClient DiscordRPC = new DiscordRpcClient("");
 
         private static string GetEpicDirectory() => Directory.Exists(@"C:\ProgramData\Epic") ? @"C:\ProgramData\Epic" : Directory.Exists(@"D:\ProgramData\Epic") ? @"D:\ProgramData\Epic" : Directory.Exists(@"E:\ProgramData\Epic") ? @"E:\ProgramData\Epic" : @"F:\ProgramData\Epic";
 
@@ -68,7 +68,7 @@ namespace Juicy_Swapper_v2.Classes
 
         public static void GetStatus()
         {
-            var StatusAPI = new WebClient().DownloadString("http://juicyswapper.xyz/api/status");
+            var StatusAPI = new WebClient().DownloadString("");
             Status StatusResponse = JsonConvert.DeserializeObject<Status>(StatusAPI);
 
             if (StatusResponse.IsOnline == false)
@@ -225,7 +225,7 @@ namespace Juicy_Swapper_v2.Classes
                 // Download the sigs and paks.
                 using (var client = new WebClient())
                 {
-                    client.DownloadFile("https://juicyswapper.xyz/sig", Settings.Default.pakPath + "\\pakchunk" + pakNumber + "-WindowsClient.sig");
+                    client.DownloadFile("", Settings.Default.pakPath + "\\pakchunk" + pakNumber + "-WindowsClient.sig");
                     TextBox.Text += "\n[LOG] Added .sig file";
                     client.DownloadFile(URL, Settings.Default.pakPath + "\\pakchunk" + pakNumber + "-WindowsClient.pak");
                     TextBox.Text += "\n[LOG] Added .pak file";
